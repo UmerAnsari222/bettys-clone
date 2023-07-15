@@ -4,1327 +4,1907 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <link rel="stylesheet" href="./style/style.css" />
-    <link rel="stylesheet" href="./style/forms.css" />
+    <link rel="stylesheet" href="./style/classic.css" />
   </head>
   <body>
-    <section class="cypress-large-offerform">
-      <div class="grid-container">
-        <div class="grid-x grid-margin-x align-center">
-          <div class="cell medium-12 large-10 xlarge-8">
-            <h1 class="form-title">Få offert</h1>
-
-            <form
-              class="af-form acf-form"
-              method="POST"
-              id="Hemstadning"
-              data-key="form_5f280bede015f"
-              novalidate="novalidate"
+    <main class="cypress-wrapper" id="cypress-wrapper">
+      <section id="cypress-menu-sticky" class="cypress-menu bottom">
+        <div class="top">
+          <div class="grid-container">
+            <a
+              id="p-privatebtn"
+              class="active menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-item current_page_item menu-item-36"
+              href="https://www.bettysstad.se/"
+              >Privat</a
             >
-              <div class="af-fields acf-fields acf-form-fields -top">
-                <div class="af-page-wrap">
-                  <a
-                    href=""
-                    class="af-page-button enabled current"
-                    data-key="field_5f32398c5855f"
-                    data-show-numbering="true"
-                    data-index="0"
-                    ><span class="index">1</span>
-                    <span class="title">Välj tjänst</span> </a
-                  ><a
-                    href=""
-                    class="af-page-button"
-                    data-key="field_5f323a0812ee2"
-                    data-show-numbering="true"
-                    data-index="1"
-                    ><span class="index">2</span>
-                    <span class="title">Om din bostad</span> </a
-                  ><a
-                    href=""
-                    class="af-page-button"
-                    data-key="field_5f323a5612ee7"
-                    data-show-numbering="true"
-                    data-index="2"
-                    ><span class="index">3</span>
-                    <span class="title">Kontaktuppgifter</span> </a
-                  ><a
-                    href=""
-                    class="af-page-button"
-                    data-key="field_5f323a9012eec"
-                    data-show-numbering="true"
-                    data-index="3"
-                    ><span class="index">4</span>
-                    <span class="title">Önskemål</span>
-                  </a>
-                </div>
-
-                <div data-välj-tjänst>
-                  <div
-                    class="af-field af-field-type-page af-field- acf-field acf-field-page acf-field-5f32398c5855f"
-                    data-name=""
-                    data-key="field_5f32398c5855f"
-                    data-type="page"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f32398c5855f">Välj tjänst</label>
-                    </div>
-                    <div class="af-input acf-input"></div>
-                  </div>
-
-                  <div
-                    class="af-field af-field-type-group af-field-valj-tjanst acf-field acf-field-group acf-field-5f32403830a1c"
-                    data-name="valj_tjanst"
-                    data-key="field_5f32403830a1c"
-                    data-type="group"
-                  >
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-radio acf-field-5f32399c58560"
-                          data-name="valj_tjanst"
-                          data-type="radio"
-                          data-key="field_5f32399c58560"
-                        >
-                          <div class="acf-input">
-                            <ul
-                              class="acf-radio-list acf-bl"
-                              data-allow_null="0"
-                              data-other_choice="0"
-                              data-select-service
-                            >
-                              <li>
-                                <label data-select-hemstädning>
-                                  <input
-                                    type="radio"
-                                    id="acf-field_5f32403830a1c-field_5f32399c58560-hemstadning"
-                                    name="acf[field_5f32403830a1c][field_5f32399c58560]"
-                                    value="Hemstädning"
-                                  />Hemstädning</label
-                                >
-                              </li>
-                              <li>
-                                <label data-select-fönsterputsning
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f32403830a1c-field_5f32399c58560-fonsterputsning"
-                                    name="acf[field_5f32403830a1c][field_5f32399c58560]"
-                                    value="Fönsterputsning"
-                                  />Fönsterputsning</label
-                                >
-                              </li>
-                              <li>
-                                <label data-select-storstädning
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f32403830a1c-field_5f32399c58560-storstadning"
-                                    name="acf[field_5f32403830a1c][field_5f32399c58560]"
-                                    value="Storstädning"
-                                  />Storstädning</label
-                                >
-                              </li>
-                              <li>
-                                <label data-select-flyttstädning
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f32403830a1c-field_5f32399c58560-flyttstadning"
-                                    name="acf[field_5f32403830a1c][field_5f32399c58560]"
-                                    value="Flyttstädning"
-                                  />Flyttstädning</label
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
+            <a
+              id="p-companybtn"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"
+              href="https://www.bettysstad.se/foretag"
+              >Företag</a
+            >
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="grid-x">
+            <div class="cell large-4">
+              <div class="navigation-bar grid-container">
+                <a class="logo" href="https://www.bettysstad.se"
+                  ><img
+                    src="https://www.bettysstad.se/wp-content/themes/alberts/assets/img/png/logo.png"
+                    alt="logo"
+                /></a>
+                <div class="citys-phones">
+                  <div class="sa-city">
+                    <button>Välj stad</button>
+                    <span class="line"></span>
+                    <div class="city-number">
+                      <a
+                        href="tel:010-3303095"
+                        id="cityphone-010-3303095"
+                        class="cityphone blue-link"
+                        >010-330 30 95</a
+                      >
                     </div>
                   </div>
+                  <ul class="city-list">
+                    <li class="city">
+                      <a
+                        href="/uppsala/"
+                        value="Uppsala"
+                        city="uppsala"
+                        class="toggle_city city-name"
+                      >
+                        Uppsala </a
+                      ><span value="08-39 00 65" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/stockholm/"
+                        value="Stockholm"
+                        city="stockholm"
+                        class="toggle_city city-name"
+                      >
+                        Stockholm </a
+                      ><span value="08-390065" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/goteborg/"
+                        value="Göteborg"
+                        city="goteborg"
+                        class="toggle_city city-name"
+                      >
+                        Göteborg </a
+                      ><span value="031-237500" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/alingsas/"
+                        value="Alingsås"
+                        city="alingsas"
+                        class="toggle_city city-name"
+                      >
+                        Alingsås </a
+                      ><span value="0322-222 001" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/boras/"
+                        value="Borås"
+                        city="boras"
+                        class="toggle_city city-name"
+                      >
+                        Borås </a
+                      ><span value="033-262100" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/kungsbacka/"
+                        value="Kungsbacka"
+                        city="kungsbacka"
+                        class="toggle_city city-name"
+                      >
+                        Kungsbacka </a
+                      ><span value="0300-74900" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/kungalv/"
+                        value="Kungälv"
+                        city="kungalv"
+                        class="toggle_city city-name"
+                      >
+                        Kungälv </a
+                      ><span value="0303-233550" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/lerum/"
+                        value="Lerum"
+                        city="lerum"
+                        class="toggle_city city-name"
+                      >
+                        Lerum </a
+                      ><span value="0302-43370" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/trollhattan/"
+                        value="Trollhättan"
+                        city="trollhattan"
+                        class="toggle_city city-name"
+                      >
+                        Trollhättan </a
+                      ><span value="0520-38 888" class="city-phone"></span>
+                    </li>
+                    <li class="city">
+                      <a
+                        href="/uddevalla/"
+                        value="Uddevalla"
+                        city="uddevalla"
+                        class="toggle_city city-name"
+                      >
+                        Uddevalla </a
+                      ><span value="0522-86 000" class="city-phone"></span>
+                    </li>
+                  </ul>
+                  <form id="changeCityForm" action="/" method="post">
+                    <input
+                      type="hidden"
+                      class="switch_city"
+                      name="switch_city"
+                      value=""
+                    />
+                  </form>
                 </div>
 
-                <div
-                  data-fönsterputsning-step-0
-                  style="display: none"
-                  class="fönsterputsning-step"
+                <button
+                  class="menu-trigger hamburger hamburger--elastic"
+                  type="button"
                 >
-                  <div
-                    class="af-field af-field-type-group af-field-vad-ska-vi-putsa acf-field acf-field-group acf-field-5f3bc8aa03808 acf-hidden"
-                    data-name="vad_ska_vi_putsa"
-                    hidden=""
-                    style="display: block"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f3bc8aa03808"
-                        >Vad ska vi putsa?</label
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+
+            <div class="cell large-8">
+              <div class="menu-wrapper">
+                <nav class="main-menu">
+                  <div class="menu-links">
+                    <li>
+                      <ul
+                        class="parent-container menu-item-container vertical menu accordion-menu"
+                        data-accordion-menu="if3myx-accordion-menu"
+                        data-submenu-toggle="false"
+                        role="menubar"
+                        aria-multiselectable="true"
                       >
-                    </div>
-
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-radio acf-field-5f3bc8c403809"
-                          data-name="vad_ska_vi_putsa"
-                          data-type="radio"
-                          data-key="field_5f3bc8c403809"
+                        <li
+                          role="none"
+                          class="is-accordion-submenu-parent"
+                          aria-controls="utswuq-acc-menu"
+                          aria-expanded="false"
+                          id="6mgoh2-acc-menu-link"
                         >
-                          <div class="acf-input">
-                            <ul
-                              data-vad-ska-vi-putsa
-                              class="acf-radio-list acf-bl"
-                              data-allow_null="0"
-                              data-other_choice="0"
-                            >
-                              <li>
-                                <label data-polish-fönster class="selected"
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc8aa03808-field_5f3bc8c403809-fonster"
-                                    name="acf[field_5f3bc8aa03808][field_5f3bc8c403809]"
-                                    value="Fönster"
-                                    checked="checked"
-                                    disabled=""
-                                  />Fönster</label
-                                >
-                              </li>
-                              <li>
-                                <label data-polish-inglasad
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc8aa03808-field_5f3bc8c403809-inglasad-balkong"
-                                    name="acf[field_5f3bc8aa03808][field_5f3bc8c403809]"
-                                    value="Inglasad balkong"
-                                    disabled=""
-                                  />Inglasad balkong</label
-                                >
-                              </li>
-                              <li>
-                                <label data-polish-fönster-balkong
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc8aa03808-field_5f3bc8c403809-fonster-och-inglasad-balkong"
-                                    name="acf[field_5f3bc8aa03808][field_5f3bc8c403809]"
-                                    value="Fönster och inglasad balkong"
-                                    disabled=""
-                                  />Fönster och inglasad balkong</label
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    class="af-field af-field-type-group af-field-typ-av-fonster acf-field acf-field-group acf-field-5f3bc8f4cbe7d acf-hidden"
-                    data-name="typ_av_fonster"
-                    data-key="field_5f3bc8f4cbe7d"
-                    data-type="group"
-                    data-conditions='[[{"field":"field_5f32399c58560","operator":"==","value":"F\u00f6nsterputsning"}]]'
-                    hidden=""
-                    style="display: block"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f3bc8f4cbe7d"
-                        >Typ av fönster</label
-                      >
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-number acf-field-5f3bc8fccbe7f window no-sprojs"
-                          data-name="utan_sprojs"
-                          data-type="number"
-                          data-key="field_5f3bc8fccbe7f"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f3bc8f4cbe7d-field_5f3bc8fccbe7f"
-                              >Utan spröjs</label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="number"
-                                id="acf-field_5f3bc8f4cbe7d-field_5f3bc8fccbe7f"
-                                name="acf[field_5f3bc8f4cbe7d][field_5f3bc8fccbe7f]"
-                                value="0"
-                                min="0"
-                                step="1"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-number acf-field-5f3bc91ecbe80 window overhangt"
-                          data-name="overhangt"
-                          data-type="number"
-                          data-key="field_5f3bc91ecbe80"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f3bc8f4cbe7d-field_5f3bc91ecbe80"
-                              >Överhängt</label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="number"
-                                id="acf-field_5f3bc8f4cbe7d-field_5f3bc91ecbe80"
-                                name="acf[field_5f3bc8f4cbe7d][field_5f3bc91ecbe80]"
-                                value="0"
-                                min="0"
-                                step="1"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-number acf-field-5f3bc930cbe81 window sprojs"
-                          data-name="med_sprojs"
-                          data-type="number"
-                          data-key="field_5f3bc930cbe81"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f3bc8f4cbe7d-field_5f3bc930cbe81"
-                              >Med spröjs</label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="number"
-                                id="acf-field_5f3bc8f4cbe7d-field_5f3bc930cbe81"
-                                name="acf[field_5f3bc8f4cbe7d][field_5f3bc930cbe81]"
-                                value="0"
-                                min="0"
-                                step="1"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    class="af-field af-field-type-group af-field-fonstrens-egenskaper acf-field acf-field-group acf-field-5f3bc945cbe82 acf-hidden"
-                    data-name="fonstrens_egenskaper"
-                    data-key="field_5f3bc945cbe82"
-                    data-type="group"
-                    data-conditions='[[{"field":"field_5f32399c58560","operator":"==","value":"F\u00f6nsterputsning"}]]'
-                    hidden=""
-                    style="display: block"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f3bc945cbe82"
-                        >Fönstrens egenskaper</label
-                      >
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-radio acf-field-5f3bc95acbe87"
-                          data-name="fonstrens_egenskaper"
-                          data-type="radio"
-                          data-key="field_5f3bc95acbe87"
-                        >
-                          <div class="acf-input">
-                            <ul
-                              class="acf-radio-list acf-bl"
-                              data-allow_null="0"
-                              data-other_choice="0"
-                              data-fönstrens-egenskaper
-                            >
-                              <li>
-                                <label
-                                  data-dubbelsidiga-fönster
-                                  class="selected"
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc945cbe82-field_5f3bc95acbe87-dubbelsidiga-fonster-fyra-sidor-att-putsa"
-                                    name="acf[field_5f3bc945cbe82][field_5f3bc95acbe87]"
-                                    value="Dubbelsidiga fönster (fyra sidor att putsa)"
-                                    checked="checked"
-                                    disabled=""
-                                  />Dubbelsidiga fönster (fyra sidor att
-                                  putsa)</label
-                                >
-                              </li>
-                              <li>
-                                <label data-enkelsidiga-fönster
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc945cbe82-field_5f3bc95acbe87-enkelsidiga-fonster-tva-sidor-att-putsa-in-utsida"
-                                    name="acf[field_5f3bc945cbe82][field_5f3bc95acbe87]"
-                                    value="Enkelsidiga fönster (två sidor att putsa, in &amp; utsida)"
-                                    disabled=""
-                                  />Enkelsidiga fönster (två sidor att putsa, in
-                                  &amp; utsida)</label
-                                >
-                              </li>
-                              <li>
-                                <label data-endast-utsida
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc945cbe82-field_5f3bc95acbe87-endast-utsida"
-                                    name="acf[field_5f3bc945cbe82][field_5f3bc95acbe87]"
-                                    value="Endast utsida"
-                                    disabled=""
-                                  />Endast utsida</label
-                                >
-                              </li>
-                              <li>
-                                <label data-endast-insida
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc945cbe82-field_5f3bc95acbe87-endast-insida"
-                                    name="acf[field_5f3bc945cbe82][field_5f3bc95acbe87]"
-                                    value="Endast insida"
-                                    disabled=""
-                                  />Endast insida</label
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="af-field af-field-type-page af-field- acf-field acf-field-page acf-field-5f323a0812ee2"
-                  data-name=""
-                  data-key="field_5f323a0812ee2"
-                  data-type="page"
-                >
-                  <div class="af-label acf-label">
-                    <label for="acf-field_5f323a0812ee2">Om din bostad</label>
-                  </div>
-                  <div class="af-input acf-input">
-                    <button class="af-previous-button">
-                      Tillbaka till steg 1
-                    </button>
-                    <button class="af-next-button">Nästa</button>
-                  </div>
-                </div>
-
-                <div data-gernel-step-1 style="display: none">
-                  <div
-                    class="af-field af-field-type-group af-field-information-om-din-bostad acf-field acf-field-group acf-field-5f32405230a1d"
-                    data-name="information_om_din_bostad"
-                    data-key="field_5f32405230a1d"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f32405230a1d"
-                        >Information om din bostad</label
-                      >
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a1512ee3 is-required"
-                          data-name="storlek"
-                          data-type="text"
-                          data-key="field_5f323a1512ee3"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32405230a1d-field_5f323a1512ee3"
-                              >Storlek
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32405230a1d-field_5f323a1512ee3"
-                                name="acf[field_5f32405230a1d][field_5f323a1512ee3]"
-                                placeholder="Storlek"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a2512ee4 is-required"
-                          data-name="postnummer"
-                          data-type="text"
-                          data-key="field_5f323a2512ee4"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32405230a1d-field_5f323a2512ee4"
-                              >Postnummer
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32405230a1d-field_5f323a2512ee4"
-                                name="acf[field_5f32405230a1d][field_5f323a2512ee4]"
-                                placeholder="Postnummer"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a3e12ee5 is-required"
-                          data-name="gatuadress"
-                          data-type="text"
-                          data-key="field_5f323a3e12ee5"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32405230a1d-field_5f323a3e12ee5"
-                              >Gatuadress
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32405230a1d-field_5f323a3e12ee5"
-                                name="acf[field_5f32405230a1d][field_5f323a3e12ee5]"
-                                placeholder="Gatuadress"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a4612ee6 is-required"
-                          data-name="ort"
-                          data-type="text"
-                          data-key="field_5f323a4612ee6"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32405230a1d-field_5f323a4612ee6"
-                              >Ort <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32405230a1d-field_5f323a4612ee6"
-                                name="acf[field_5f32405230a1d][field_5f323a4612ee6]"
-                                placeholder="Ort"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div data-fönsterputsning-step-1 style="display: none">
-                  <div
-                    class="af-field af-field-type-group af-field-behovs-stege acf-field acf-field-group acf-field-5f3bc9c518a3a acf-hidden"
-                    data-name="behovs_stege"
-                    data-key="field_5f3bc9c518a3a"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f3bc9c518a3a">Behövs stege?</label>
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-radio acf-field-5f3bc9db18a3c"
-                          data-name="behovs_stege"
-                          data-type="radio"
-                          data-key="field_5f3bc9db18a3c"
-                        >
-                          <div class="acf-input">
-                            <ul
-                              class="acf-radio-list acf-bl"
-                              data-allow_null="0"
-                              data-other_choice="0"
-                              data-behövs-stege
-                            >
-                              <li>
-                                <label data-behövs-ja class="selected"
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc9c518a3a-field_5f3bc9db18a3c-ja"
-                                    name="acf[field_5f3bc9c518a3a][field_5f3bc9db18a3c]"
-                                    value="Ja"
-                                    checked="checked"
-                                    disabled=""
-                                  />Ja</label
-                                >
-                              </li>
-                              <li>
-                                <label data-behövs-nej
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc9c518a3a-field_5f3bc9db18a3c-nej"
-                                    name="acf[field_5f3bc9c518a3a][field_5f3bc9db18a3c]"
-                                    value="Nej"
-                                    disabled=""
-                                  />Nej</label
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    class="af-field af-field-type-group af-field-karmtvatt acf-field acf-field-group acf-field-5f3bc9f818a3d acf-hidden"
-                    data-name="karmtvatt"
-                    data-key="field_5f3bc9f818a3d"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f3bc9f818a3d">Karmtvätt</label>
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-radio acf-field-5f3bc9f818a3e"
-                          data-name="karmtvatt"
-                          data-type="radio"
-                          data-key="field_5f3bc9f818a3e"
-                        >
-                          <div class="acf-input">
-                            <ul
-                              class="acf-radio-list acf-bl"
-                              data-allow_null="0"
-                              data-other_choice="0"
-                              data-karmtvätt
-                            >
-                              <li>
-                                <label data-karmtvätt-ja class="selected"
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc9f818a3d-field_5f3bc9f818a3e-ja"
-                                    name="acf[field_5f3bc9f818a3d][field_5f3bc9f818a3e]"
-                                    value="Ja"
-                                    checked="checked"
-                                    disabled=""
-                                  />Ja</label
-                                >
-                              </li>
-                              <li>
-                                <label data-karmtvätt-nej
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bc9f818a3d-field_5f3bc9f818a3e-nej"
-                                    name="acf[field_5f3bc9f818a3d][field_5f3bc9f818a3e]"
-                                    value="Nej"
-                                    disabled=""
-                                  />Nej</label
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="af-field af-field-type-page af-field- acf-field acf-field-page acf-field-5f323a5612ee7"
-                  data-name=""
-                  data-key="field_5f323a5612ee7"
-                  data-type="page"
-                >
-                  <div class="af-label acf-label">
-                    <label for="acf-field_5f323a5612ee7"
-                      >Kontaktuppgifter</label
-                    >
-                  </div>
-                  <div class="af-input acf-input">
-                    <button class="af-previous-button">
-                      Tillbaka till steg 2
-                    </button>
-                    <button class="af-next-button">Nästa</button>
-                  </div>
-                </div>
-
-                <div data-gernel-step-2 style="display: none">
-                  <div
-                    class="af-field af-field-type-group af-field-kontaktuppgifter acf-field acf-field-group acf-field-5f32407430a1e"
-                    data-name="kontaktuppgifter"
-                    data-key="field_5f32407430a1e"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f32407430a1e"
-                        >Kontaktuppgifter</label
-                      >
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a6212ee8 is-required"
-                          data-name="fornamn"
-                          data-type="text"
-                          data-key="field_5f323a6212ee8"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32407430a1e-field_5f323a6212ee8"
-                              >Förnamn
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32407430a1e-field_5f323a6212ee8"
-                                name="acf[field_5f32407430a1e][field_5f323a6212ee8]"
-                                placeholder="Förnamn"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a6f12eea is-required"
-                          data-name="efternamn"
-                          data-type="text"
-                          data-key="field_5f323a6f12eea"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32407430a1e-field_5f323a6f12eea"
-                              >Efternamn
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32407430a1e-field_5f323a6f12eea"
-                                name="acf[field_5f32407430a1e][field_5f323a6f12eea]"
-                                placeholder="Efternamn"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a6612ee9 is-required"
-                          data-name="telefonnummer"
-                          data-type="text"
-                          data-key="field_5f323a6612ee9"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32407430a1e-field_5f323a6612ee9"
-                              >Telefonnummer
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32407430a1e-field_5f323a6612ee9"
-                                name="acf[field_5f32407430a1e][field_5f323a6612ee9]"
-                                placeholder="Telefonnummer"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-email acf-field-5f323a7812eeb is-required"
-                          data-name="e-post"
-                          data-type="email"
-                          data-key="field_5f323a7812eeb"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32407430a1e-field_5f323a7812eeb"
-                              >E-post <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="email"
-                                id="acf-field_5f32407430a1e-field_5f323a7812eeb"
-                                name="acf[field_5f32407430a1e][field_5f323a7812eeb]"
-                                placeholder="E-post"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div data-fönsterputsning-step-2 style="display: none">
-                  <div
-                    class="af-field af-field-type-group af-field-kontaktuppgifter acf-field acf-field-group acf-field-5f32407430a1e"
-                    data-name="kontaktuppgifter"
-                    data-key="field_5f32407430a1e"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f32407430a1e"
-                        >Kontaktuppgifter</label
-                      >
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a6212ee8 is-required"
-                          data-name="fornamn"
-                          data-type="text"
-                          data-key="field_5f323a6212ee8"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32407430a1e-field_5f323a6212ee8"
-                              >Förnamn
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32407430a1e-field_5f323a6212ee8"
-                                name="acf[field_5f32407430a1e][field_5f323a6212ee8]"
-                                placeholder="Förnamn"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a6f12eea is-required"
-                          data-name="efternamn"
-                          data-type="text"
-                          data-key="field_5f323a6f12eea"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32407430a1e-field_5f323a6f12eea"
-                              >Efternamn
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32407430a1e-field_5f323a6f12eea"
-                                name="acf[field_5f32407430a1e][field_5f323a6f12eea]"
-                                placeholder="Efternamn"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f323a6612ee9 is-required"
-                          data-name="telefonnummer"
-                          data-type="text"
-                          data-key="field_5f323a6612ee9"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32407430a1e-field_5f323a6612ee9"
-                              >Telefonnummer
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f32407430a1e-field_5f323a6612ee9"
-                                name="acf[field_5f32407430a1e][field_5f323a6612ee9]"
-                                placeholder="Telefonnummer"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-email acf-field-5f323a7812eeb is-required"
-                          data-name="e-post"
-                          data-type="email"
-                          data-key="field_5f323a7812eeb"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f32407430a1e-field_5f323a7812eeb"
-                              >E-post <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="email"
-                                id="acf-field_5f32407430a1e-field_5f323a7812eeb"
-                                name="acf[field_5f32407430a1e][field_5f323a7812eeb]"
-                                placeholder="E-post"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    class="af-field af-field-type-group af-field-adress acf-field acf-field-group acf-field-5f3bca537fd32 acf-hidden"
-                    data-name="adress"
-                    data-key="field_5f3bca537fd32"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f3bca537fd32">Adress</label>
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-text acf-field-5f3bca747fd37 is-required"
-                          data-name="gatuadress"
-                          data-type="text"
-                          data-key="field_5f3bca747fd37"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f3bca537fd32-field_5f3bca747fd37"
-                              >Gatuadress
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f3bca537fd32-field_5f3bca747fd37"
-                                name="acf[field_5f3bca537fd32][field_5f3bca747fd37]"
-                                placeholder="Gatuadress"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f3bca847fd38 is-required"
-                          data-name="postnummer"
-                          data-type="text"
-                          data-key="field_5f3bca847fd38"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f3bca537fd32-field_5f3bca847fd38"
-                              >Postnummer
-                              <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f3bca537fd32-field_5f3bca847fd38"
-                                name="acf[field_5f3bca537fd32][field_5f3bca847fd38]"
-                                placeholder="Postnummer"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f3bca977fd39 is-required"
-                          data-name="ort"
-                          data-type="text"
-                          data-key="field_5f3bca977fd39"
-                          data-required="1"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f3bca537fd32-field_5f3bca977fd39"
-                              >Ort <span class="acf-required">*</span></label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input
-                                type="text"
-                                id="acf-field_5f3bca537fd32-field_5f3bca977fd39"
-                                name="acf[field_5f3bca537fd32][field_5f3bca977fd39]"
-                                placeholder="Ort"
-                                required="required"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-text acf-field-5f3bcab57fd3a"
-                          data-name="portkod"
-                          data-type="text"
-                          data-key="field_5f3bcab57fd3a"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f3bca537fd32-field_5f3bcab57fd3a"
-                              >Portkod</label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-input-wrap">
-                              <input type="text" placeholder="Portkod" />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="acf-field acf-field-true-false acf-field-5f3bcac27fd3b"
-                          data-name="ingen_portkod"
-                          data-type="true_false"
-                          data-key="field_5f3bcac27fd3b"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f3bca537fd32-field_5f3bcac27fd3b"
-                              >Ingen portkod</label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <div class="acf-true-false">
-                              <input
-                                type="hidden"
-                                name="acf[field_5f3bca537fd32][field_5f3bcac27fd3b]"
-                                value="0"
-                              />
-                              <label>
-                                <input
-                                  style="width: 20px"
-                                  type="checkbox"
-                                  id="acf-field_5f3bca537fd32-field_5f3bcac27fd3b"
-                                  name="acf[field_5f3bca537fd32][field_5f3bcac27fd3b]"
-                                  value="1"
-                                  class=""
-                                  autocomplete="off"
-                                />
-                                <span class="message">Ingen portkod</span>
-                              </label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    class="af-field af-field-type-group af-field-tillgang-till-bostaden acf-field acf-field-group acf-field-5f3bcafe4c7c1 acf-hidden"
-                    data-name="tillgang_till_bostaden"
-                    data-key="field_5f3bcafe4c7c1"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f3bcafe4c7c1"
-                        >Tillgång till bostaden</label
-                      >
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-radio acf-field-5f3bcb124c7c7"
-                          data-name="tillgang_till_bostaden"
-                          data-type="radio"
-                          data-key="field_5f3bcb124c7c7"
-                        >
-                          <div class="acf-label">
-                            <label
-                              for="acf-field_5f3bcafe4c7c1-field_5f3bcb124c7c7"
-                              >Tillgång till bostaden</label
-                            >
-                          </div>
-                          <div class="acf-input">
-                            <input
-                              type="hidden"
-                              name="acf[field_5f3bcafe4c7c1][field_5f3bcb124c7c7]"
-                            />
-                            <ul
-                              class="acf-radio-list acf-bl"
-                              data-allow_null="0"
-                              data-other_choice="0"
-                              data-tillgång-till-bostaden
-                            >
-                              <li>
-                                <label
-                                  data-tillgång-till-bostaden-öppnar
-                                  class="selected"
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bcafe4c7c1-field_5f3bcb124c7c7-jag-oppnar-at-personalen"
-                                    name="acf[field_5f3bcafe4c7c1][field_5f3bcb124c7c7]"
-                                    value="Jag öppnar åt personalen"
-                                    checked="checked"
-                                  />Jag öppnar åt personalen</label
-                                >
-                              </li>
-                              <li>
-                                <label data-tillgång-till-bostaden-lämnar
-                                  ><input
-                                    type="radio"
-                                    id="acf-field_5f3bcafe4c7c1-field_5f3bcb124c7c7-jag-lamnar-nycklarna-till-alberts-kontor-senast-klockan-12-dagen-fore-utforandet"
-                                    name="acf[field_5f3bcafe4c7c1][field_5f3bcb124c7c7]"
-                                    value="Jag lämnar nycklarna till Alberts kontor senast klockan 12 dagen före utförandet"
-                                    disabled=""
-                                  />Jag lämnar nycklarna till Alberts kontor
-                                  senast klockan 12 dagen före utförandet</label
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="af-field af-field-type-page af-field- acf-field acf-field-page acf-field-5f323a9012eec"
-                  data-name=""
-                  data-key="field_5f323a9012eec"
-                  data-type="page"
-                >
-                  <div class="af-label acf-label">
-                    <label for="acf-field_5f323a9012eec">Önskemål</label>
-                  </div>
-                  <div class="af-input acf-input">
-                    <button class="af-previous-button">
-                      Tillbaka till steg 3
-                    </button>
-                    <button class="af-next-button">Nästa</button>
-                  </div>
-                </div>
-
-                <div data-fönsterputsning-step-3 style="display: none">
-                  <div
-                    class="af-field af-field-type-group af-field-onskat-datum acf-field acf-field-group acf-field-5f3bcb4fc205b acf-hidden"
-                    data-name="onskat_datum"
-                    data-key="field_5f3bcb4fc205b"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f3bcb4fc205b">Önskat datum</label>
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-date-picker acf-field-5f3bcb64c205e"
-                          data-name="onskat_datum"
-                          data-type="date_picker"
-                          data-key="field_5f3bcb64c205e"
-                        >
-                          <div class="acf-input">
-                            <div
-                              class="acf-date-picker acf-input-wrap"
-                              data-date_format="d MM yy"
-                              data-first_day="1"
-                            >
-                              <input
-                                type="datetime-local"
-                                class="input hasDatepicker"
-                                value=""
-                                id="dp1689306083369"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    class="af-field af-field-type-group af-field-ovriga-onskemal acf-field acf-field-group acf-field-5f32409530a1f"
-                    data-name="ovriga_onskemal"
-                    data-key="field_5f32409530a1f"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f32409530a1f"
-                        >Övriga önskemål</label
-                      >
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-textarea acf-field-5f323a9a12eed"
-                          data-name="ovriga_onskemal"
-                          data-type="textarea"
-                          data-key="field_5f323a9a12eed"
-                        >
-                          <div class="acf-input">
-                            <textarea
-                              id="acf-field_5f32409530a1f-field_5f323a9a12eed"
-                              name="acf[field_5f32409530a1f][field_5f323a9a12eed]"
-                              placeholder="Här kan du till exempel lämna önskemål om datum och tider, eventuell kampanjkod eller annan information som vi bör känna till."
-                              rows="4"
-                            ></textarea>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div data-gernel-step-3 style="display: none">
-                  <div
-                    class="af-field af-field-type-group af-field-ovriga-onskemal acf-field acf-field-group acf-field-5f32409530a1f"
-                    data-name="ovriga_onskemal"
-                    data-key="field_5f32409530a1f"
-                    data-type="group"
-                  >
-                    <div class="af-label acf-label">
-                      <label for="acf-field_5f32409530a1f"
-                        >Övriga önskemål</label
-                      >
-                    </div>
-                    <div class="af-input acf-input">
-                      <div class="acf-fields -top -border">
-                        <div
-                          class="acf-field acf-field-textarea acf-field-5f323a9a12eed"
-                          data-name="ovriga_onskemal"
-                          data-type="textarea"
-                          data-key="field_5f323a9a12eed"
-                        >
-                          <div class="acf-input">
-                            <textarea
-                              id="acf-field_5f32409530a1f-field_5f323a9a12eed"
-                              name="acf[field_5f32409530a1f][field_5f323a9a12eed]"
-                              placeholder="Här kan du till exempel lämna önskemål om datum och tider, eventuell kampanjkod eller annan information som vi bör känna till."
-                              rows="4"
-                            ></textarea>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="af-field af-field-type-true-false af-field-integritetspolicy acf-field acf-field-true-false acf-field-5f326502134d7 af-field-required"
-                  data-name="integritetspolicy"
-                  data-key="field_5f326502134d7"
-                  data-type="true_false"
-                  style="display: none"
-                >
-                  <div class="af-label acf-label">
-                    <label for="acf-field_5f326502134d7"
-                      >Integritetspolicy
-                      <span class="acf-required">*</span></label
-                    >
-                  </div>
-                  <div class="af-input acf-input">
-                    <div class="acf-true-false">
-                      <input
-                        type="hidden"
-                        name="acf[field_5f326502134d7]"
-                        value="0"
-                      />
-                      <label>
-                        <input
-                          type="checkbox"
-                          id="acf-field_5f326502134d7"
-                          name="acf[field_5f326502134d7]"
-                          value="1"
-                          class=""
-                          autocomplete="off"
-                        />
-                        <span class="message"
-                          >Jag godkänner er
                           <a
-                            href="https://www.alberts-service.se/om-alberts/integritetspolicy-gdpr/"
-                            target="_blank"
-                            >integritetspolicy</a
-                          ></span
+                            id=""
+                            class="menu-item service-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-163 menu-item-has-children standard"
+                            href="https://www.bettysstad.se/tjanster/"
+                            role="menuitem"
+                          >
+                            <span>Tjänster</span>
+                          </a>
+
+                          <ul
+                            class="child-container menu-item-container submenu is-accordion-submenu"
+                            style="display: none"
+                            data-submenu=""
+                            role="group"
+                            aria-labelledby="6mgoh2-acc-menu-link"
+                            aria-hidden="true"
+                            id="utswuq-acc-menu"
+                          >
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-165 child standard"
+                                href="https://www.bettysstad.se/tjanster/hemstadning/"
+                                role="menuitem"
+                              >
+                                <span>Hemstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-838 child standard"
+                                href="https://www.bettysstad.se/tjanster/flyttstadning/"
+                                role="menuitem"
+                              >
+                                <span>Flyttstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-927 child standard"
+                                href="https://www.bettysstad.se/tjanster/storstadning/"
+                                role="menuitem"
+                              >
+                                <span>Storstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-172 child standard"
+                                href="https://www.bettysstad.se/tjanster/fonsterputs/"
+                                role="menuitem"
+                              >
+                                <span>Fönsterputs</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-1534 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/presentkort/"
+                                role="menuitem"
+                              >
+                                <span>Presentkort</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul
+                        class="parent-container menu-item-container vertical menu accordion-menu"
+                        data-accordion-menu="0dlj1n-accordion-menu"
+                        data-submenu-toggle="false"
+                        role="menubar"
+                        aria-multiselectable="true"
+                      >
+                        <li
+                          role="none"
+                          class="is-accordion-submenu-parent"
+                          aria-controls="9dwb0f-acc-menu"
+                          aria-expanded="false"
+                          id="76qssl-acc-menu-link"
                         >
-                      </label>
+                          <a
+                            id=""
+                            class="menu-item about-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-40 menu-item-has-children standard"
+                            href="https://www.bettysstad.se/om-bettys/"
+                            role="menuitem"
+                          >
+                            <span>Om Bettys</span>
+                          </a>
+
+                          <ul
+                            class="child-container menu-item-container submenu is-accordion-submenu"
+                            style="display: none"
+                            data-submenu=""
+                            role="group"
+                            aria-labelledby="76qssl-acc-menu-link"
+                            aria-hidden="true"
+                            id="9dwb0f-acc-menu"
+                          >
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-403 child standard"
+                                href="https://www.bettysstad.se/om-bettys/"
+                                role="menuitem"
+                              >
+                                <span>Om Bettys</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-875 child standard"
+                                href="https://www.bettysstad.se/om-bettys/malsattning/"
+                                role="menuitem"
+                              >
+                                <span>Målsättning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-876 child standard"
+                                href="https://www.bettysstad.se/om-bettys/varderingar/"
+                                role="menuitem"
+                              >
+                                <span>Värderingar</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-28411 child standard"
+                                href="https://www.bettysstad.se/om-bettys/leverantorer/"
+                                role="menuitem"
+                              >
+                                <span>Leverantörer</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-878 child standard"
+                                href="https://www.bettysstad.se/om-bettys/miljo-stadforetag/"
+                                role="menuitem"
+                              >
+                                <span>Miljö</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-31346 child standard"
+                                href="https://www.bettysstad.se/om-bettys/nyheter/"
+                                role="menuitem"
+                              >
+                                <span>Information från Bettys</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-877 child standard"
+                                href="https://www.bettysstad.se/om-bettys/kvalitet-stadforetag/"
+                                role="menuitem"
+                              >
+                                <span>Kvalitet</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-28410 child standard"
+                                href="https://www.bettysstad.se/om-bettys/schyssta-arbetsvillkor/"
+                                role="menuitem"
+                              >
+                                <span>Schyssta arbetsvillkor</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-880 child standard"
+                                href="https://www.bettysstad.se/om-bettys/jobba-hos-oss/"
+                                role="menuitem"
+                              >
+                                <span>Jobba hos oss</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-615 child standard"
+                                href="https://www.bettysstad.se/om-bettys/integritetspolicy-gdpr/"
+                                role="menuitem"
+                              >
+                                <span>Integritetspolicy</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-879 child standard"
+                                href="https://www.bettysstad.se/om-bettys/covid-19/"
+                                role="menuitem"
+                              >
+                                <span>Covid-19</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul
+                        class="parent-container menu-item-container vertical menu accordion-menu"
+                        data-accordion-menu="9rewp0-accordion-menu"
+                        data-submenu-toggle="false"
+                        role="menubar"
+                        aria-multiselectable="true"
+                      >
+                        <li
+                          role="none"
+                          class="is-accordion-submenu-parent"
+                          aria-controls="4nor4z-acc-menu"
+                          aria-expanded="false"
+                          id="l7hio9-acc-menu-link"
+                        >
+                          <a
+                            id=""
+                            class="menu-item client-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-138 menu-item-has-children standard"
+                            href="https://www.bettysstad.se/att-vara-kund/"
+                            role="menuitem"
+                          >
+                            <span>Att vara kund</span>
+                          </a>
+
+                          <ul
+                            class="child-container menu-item-container submenu is-accordion-submenu"
+                            style="display: none"
+                            data-submenu=""
+                            role="group"
+                            aria-labelledby="l7hio9-acc-menu-link"
+                            aria-hidden="true"
+                            id="4nor4z-acc-menu"
+                          >
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-989 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/presentkort/"
+                                role="menuitem"
+                              >
+                                <span>Presentkort</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-256 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/"
+                                role="menuitem"
+                              >
+                                <span>Att vara kund</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-175 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/priser-hemstadning/"
+                                role="menuitem"
+                              >
+                                <span>Priser – Hemstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-1612 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/priser-flyttstadning/"
+                                role="menuitem"
+                              >
+                                <span>Priser – Flyttstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-1064 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/priser-storstadning/"
+                                role="menuitem"
+                              >
+                                <span>Priser – Storstädning</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-266 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/priser-fonsterputs/"
+                                role="menuitem"
+                              >
+                                <span>Priser – Fönsterputs</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-181 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/rutavdrag/"
+                                role="menuitem"
+                              >
+                                <span>Rutavdrag</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-186 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/stadtips/"
+                                role="menuitem"
+                              >
+                                <span>Städtips</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-401 child standard"
+                                href="https://www.bettysstad.se/att-vara-kund/vanliga-fragor-och-svar/"
+                                role="menuitem"
+                              >
+                                <span>Vanliga frågor och svar</span>
+                              </a>
+                            </li>
+                            <li
+                              role="none"
+                              class="is-submenu-item is-accordion-submenu-item"
+                            >
+                              <a
+                                id=""
+                                class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-400 child standard"
+                                href="https://www.bettysstad.se/nojd-kundgaranti/"
+                                role="menuitem"
+                              >
+                                <span>Nöjd kundgaranti</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        id=""
+                        class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-164 standard"
+                        href="https://www.bettysstad.se/kontakt/"
+                      >
+                        <span>Kontakt</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        id="flyttstadbtn"
+                        class="menu-item btn green offer menu-item menu-item-type-post_type menu-item-object-page menu-item-255 standard"
+                        href="https://www.bettysstad.se/offert-pa-flyttstad/"
+                      >
+                        <span>Offert på flyttstäd</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        id="hemstadbtn"
+                        class="menu-item btn blue offer menu-item menu-item-type-post_type menu-item-object-page menu-item-286 standard"
+                        href="https://www.bettysstad.se/offert-pa-hemstad/"
+                      >
+                        <span>Offert på hemstäd</span>
+                      </a>
+                    </li>
+
+                    <div class="citys-phones-small">
+                      <button class="opt-city">Välj stad</button>
+                      <ul class="city-list">
+                        <li class="city">
+                          <a
+                            href="/uppsala/"
+                            value="Uppsala"
+                            city="uppsala"
+                            class="toggle_city city-name"
+                          >
+                            Uppsala </a
+                          ><span value="08-39 00 65" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/stockholm/"
+                            value="Stockholm"
+                            city="stockholm"
+                            class="toggle_city city-name"
+                          >
+                            Stockholm </a
+                          ><span value="08-390065" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/goteborg/"
+                            value="Göteborg"
+                            city="goteborg"
+                            class="toggle_city city-name"
+                          >
+                            Göteborg </a
+                          ><span value="031-237500" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/alingsas/"
+                            value="Alingsås"
+                            city="alingsas"
+                            class="toggle_city city-name"
+                          >
+                            Alingsås </a
+                          ><span value="0322-222 001" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/boras/"
+                            value="Borås"
+                            city="boras"
+                            class="toggle_city city-name"
+                          >
+                            Borås </a
+                          ><span value="033-262100" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/kungsbacka/"
+                            value="Kungsbacka"
+                            city="kungsbacka"
+                            class="toggle_city city-name"
+                          >
+                            Kungsbacka </a
+                          ><span value="0300-74900" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/kungalv/"
+                            value="Kungälv"
+                            city="kungalv"
+                            class="toggle_city city-name"
+                          >
+                            Kungälv </a
+                          ><span value="0303-233550" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/lerum/"
+                            value="Lerum"
+                            city="lerum"
+                            class="toggle_city city-name"
+                          >
+                            Lerum </a
+                          ><span value="0302-43370" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/trollhattan/"
+                            value="Trollhättan"
+                            city="trollhattan"
+                            class="toggle_city city-name"
+                          >
+                            Trollhättan </a
+                          ><span value="0520-38 888" class="city-phone"></span>
+                        </li>
+                        <li class="city">
+                          <a
+                            href="/uddevalla/"
+                            value="Uddevalla"
+                            city="uddevalla"
+                            class="toggle_city city-name"
+                          >
+                            Uddevalla </a
+                          ><span value="0522-86 000" class="city-phone"></span>
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                </div>
-
-                <div class="af-submit acf-form-submit">
-                  <button class="af-previous-button" disabled="disabled">
-                    Föregående
-                  </button>
-                  <button data-next-button class="af-next-button">Nästa</button>
-                  <button
-                    type="submit"
-                    class="acf-button af-submit-button privateFormBtn"
-                    id="Hemstadning"
-                    style="display: none"
-                    data-send-button
+                </nav>
+              </div>
+              <div class="mobile-menu-btns">
+                <div class="mmb-buttons">
+                  <a
+                    class="btn blue menu-item menu-item-type-custom menu-item-object-custom menu-item-type-post_type menu-item-object-page menu-item-1041"
+                    href="https://www.bettysstad.se/offert/flyttstadning/"
+                    >Offert på hemstäd</a
                   >
-                    Skicka
-                  </button>
-                  <span class="acf-spinner af-spinner"></span>
+                  <a
+                    class="btn green menu-item menu-item-type-post_type menu-item-object-page menu-item-254"
+                    href="https://www.bettysstad.se/offert-pa-flyttstad/"
+                    >Offert på flyttstäd</a
+                  >
                 </div>
-              </div>
-            </form>
-
-            <ul class="form checklist">
-              <li>139 kr/h första månaden</li>
-              <li>Inga bindningstider</li>
-              <li>Nöjd kund-garanti</li>
-            </ul>
-
-            <div class="cert-wrap">
-              <div class="cert">
-                <img
-                  src="https://www.bettysstad.se/wp-content/uploads/2020/07/reco_logo.svg"
-                  alt=""
-                />
-              </div>
-              <div class="cert">
-                <img
-                  src="https://www.bettysstad.se/wp-content/uploads/2020/08/a3cert-iso-9001-14001.svg"
-                  alt=""
-                />
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <script src="./js/script.js"></script>
+      <div class="cypress-notice darkblue">
+        <div class="notice-content">
+          <p>
+            <strong style="color: white">Bettys ♥ För en enklare vardag</strong>
+          </p>
+        </div>
+        <div class="notice_close"></div>
+      </div>
+
+      <div class="cypress-content mt-60">
+        <section class="cypress-heroblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <span class="background lightblue"></span>
+
+              <div class="caption cell large-10 xlarge-6">
+                <div class="inner">
+                  <p class="big">
+                    Rent &amp; snyggt.<br />
+                    Helt enkelt.
+                  </p>
+                  <p>
+                    Välj Bettys när du vill få det extra rent och snyggt hemma.
+                    Alltid till ett riktigt bra pris, alltid med
+                    kvalitetsgaranti.
+                  </p>
+                  <form
+                    class="cypress-offerform"
+                    action="https://www.bettysstad.se/offert/"
+                    method="post"
+                  >
+                    <input
+                      type="hidden"
+                      name="init_offerform"
+                      value="1"
+                    /><input type="hidden" name="" value="1" />
+                    <div class="form-field-wrap">
+                      <div class="form-field">
+                        <input
+                          type="text"
+                          name="house_size"
+                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                          placeholder="Storlek m²"
+                        />
+                      </div>
+                      <div class="form-field noline">
+                        <input
+                          name="house_zipcode"
+                          type="text"
+                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                          placeholder="Postnummer"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-submit">
+                      <button
+                        type="submit"
+                        class="submit-button btn offer-btn get-offert"
+                      >
+                        Få offert här!
+                      </button>
+                    </div>
+                  </form>
+                </div>
+
+                <ul class="usps">
+                  <li>
+                    <span class="icon-check"></span
+                    ><span class="usp-text">139 kr/h första två månaderna</span>
+                  </li>
+                  <li>
+                    <span class="icon-check"></span
+                    ><span class="usp-text">Inga bindningstider</span>
+                  </li>
+                  <li>
+                    <span class="icon-check"></span
+                    ><span class="usp-text">Nöjd kund-garanti</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="media cell large-10 xlarge-6">
+                <div>
+                  <img
+                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/bettys_vara-varderingar.jpg"
+                    class="image"
+                  />
+                </div>
+
+                <div class="circle darkorange show">
+                  <p class="inner">Alltid lågt pris!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="green_circle show"></div>
+        </section>
+
+        <section
+          class="cypress-textblock no-numbers aos-init"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="grid-container narrow">
+            <div class="grid-x grid-margin-x align-center tx-blocks">
+              <div class="cell medium-12 large-10">
+                <h1 style="text-align: center">
+                  Bettys Städ<br />
+                  – städföretag i Göteborg &amp; Stockholm
+                </h1>
+                <p style="text-align: center">
+                  Välkommen till oss på Bettys. Vi gör vardagen enklare, för
+                  både företag och privatpersoner. Med våra 6 000 städuppdrag
+                  varje månad, en passion för nöjda kunder och våra fantastiska
+                  medarbetare kan du alltid vara trygg i att du får
+                  kvalitetssäkrad, högklassig städning. Till ett av marknadens
+                  bästa priser.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cypress-certifiedblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div
+                class="logobox cell small-6 large-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                <div class="logo-wrap">
+                  <img
+                    src="https://www.bettysstad.se/wp-content/uploads/2020/07/sextusen_logo.svg"
+                    alt="logo"
+                  />
+                </div>
+                <p class="title">Över 6000 städuppdrag per månad</p>
+              </div>
+
+              <div
+                class="logobox cell small-6 large-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <div class="logo-wrap">
+                  <img
+                    src="https://www.bettysstad.se/wp-content/uploads/2020/09/alberts-stadservice-iso-symbol.png"
+                    alt="logo"
+                  />
+                </div>
+                <p class="title">Ledningssystem kvalité och miljö</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cypress-serviceblock">
+          <span class="bg"></span>
+
+          <div class="grid-container">
+            <div class="intro grid-x grid-margin-x">
+              <div class="cell small-6 large-8">
+                <h2>Våra städtjänster</h2>
+              </div>
+
+              <div class="cell small-6 large-4">
+                <div class="switch-bar">
+                  <span id="switch-1" class="switched active">Privat</span>
+                  <span id="switch-2" class="switched">Företag</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="page-1"
+              class="services-grid grid-x grid-margin-x"
+              style=""
+            >
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/tjanster/hemstadning/"
+                  class="link"
+                >
+                  <img
+                    width="974"
+                    height="852"
+                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1.jpg         974w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1-600x525.jpg 600w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1-768x672.jpg 768w
+                    "
+                    sizes="(max-width: 974px) 100vw, 974px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Hemstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/tjanster/flyttstadning/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Flyttstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/tjanster/storstadning/"
+                  class="link"
+                >
+                  <img
+                    width="1001"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2.jpg         1001w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2-768x673.jpg  768w
+                    "
+                    sizes="(max-width: 1001px) 100vw, 1001px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Storstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/tjanster/fonsterputs/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Fönsterputs</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              id="page-2"
+              class="services-grid grid-x grid-margin-x"
+              style="display: none"
+            >
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/kontorsstadning/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Kontorsstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/fonsterputs/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/fonsterputs-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/fonsterputs-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/fonsterputs-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/fonsterputs-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Fönsterputs</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/trappstadning/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/trappstadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/trappstadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/trappstadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/trappstadning-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Trappstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/byggstadning/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/byggstadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/byggstadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/byggstadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/byggstadning-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Byggstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/flyttstadning/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Flyttstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/stadning-gym-traningslokaler/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/gymstadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/gymstadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/gymstadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/gymstadning-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Gym och träningslokaler</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="350"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/skolstadning/"
+                  class="link"
+                >
+                  <img
+                    width="1104"
+                    height="844"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b.jpg          1104w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b-600x459.jpg   600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b-1024x783.jpg 1024w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b-552x422.jpg   552w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b-768x587.jpg   768w
+                    "
+                    sizes="(max-width: 1104px) 100vw, 1104px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Skola och förskola</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/golvvard/"
+                  class="link"
+                >
+                  <img
+                    width="1104"
+                    height="844"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01.jpg          1104w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01-600x459.jpg   600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01-1024x783.jpg 1024w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01-552x422.jpg   552w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01-768x587.jpg   768w
+                    "
+                    sizes="(max-width: 1104px) 100vw, 1104px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Golvvård</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="450"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/butiksstadning/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/butiksstadning-mid.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/butiksstadning-mid.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/butiksstadning-mid-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/butiksstadning-mid-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Butiksstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/entremattor/"
+                  class="link"
+                >
+                  <img
+                    width="1104"
+                    height="844"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt="Berendsen part of Elis"
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01.jpg          1104w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01-600x459.jpg   600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01-1024x783.jpg 1024w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01-552x422.jpg   552w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01-768x587.jpg   768w
+                    "
+                    sizes="(max-width: 1104px) 100vw, 1104px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Entrémattor</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="550"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/industristadning/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/industristadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/industristadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/industristadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/industristadning-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Industristädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/foretag/tjanster/lokalvard/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/lokalvard-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/lokalvard-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/lokalvard-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/lokalvard-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Lokalvård</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-mediablock standard noimg lightblue">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center flex toright">
+              <div
+                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 large-offset-0 xlarge-offset-1 aos-init"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <div class="textfield">
+                  <h3>50% avdrag direkt på fakturan</h3>
+                  <p>
+                    När du köper hushållsnära tjänster av Bettys får du alltid
+                    50% skattereduktion på hela arbetskostnaden. Du behöver inte
+                    göra något själv, vi gör avdraget på fakturan.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 show-for-xlarge aos-init"
+                data-aos="fade-right"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="https://www.bettysstad.se/wp-content/uploads/2023/05/bettys-rut-stadning.jpg"
+                  class="image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="cypress-quoteblock aos-init"
+          data-aos="fade"
+          data-aos-duration="2000"
+        >
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div class="cell medium-12 xlarge-10 xxlarge-6">
+                <div
+                  class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-css-mode"
+                >
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide quote swiper-slide-active"
+                      style="width: 513px"
+                    >
+                      <p class="text">
+                        ”Briljant städ! Snabb och effektivt utan något slarv.
+                        Bra kommunikation och inga konstigheter. Rekommenderas!”
+                      </p>
+                      <p class="name">Sebastian O, 5/5 stjärnor, Google plus</p>
+                    </div>
+                    <div
+                      class="swiper-slide quote swiper-slide-next"
+                      style="width: 513px"
+                    >
+                      <p class="text">
+                        ”Jag har upplevt en alldeles utomordentlig service,
+                        närhet och ett fint ompysslande av själva
+                        städpersonalen! Rekommenderas!”
+                      </p>
+                      <p class="name">Mette B, 5/5 stjärnor, Google plus</p>
+                    </div>
+                    <div class="swiper-slide quote" style="width: 513px">
+                      <p class="text">
+                        ”Vi är mycket nöjda med Bettys Städ! De har en mycket
+                        bra kundservice, är seriösa, professionella och
+                        städpersonalen har en yrkesstolthet. Det är rent och
+                        fint när vi kommer hem vilket underlättar vår vardag
+                        mycket. Rekommenderar starkt Bettys till alla.”
+                      </p>
+                      <p class="name">Em L, 5/5 stjärnor, RECO.se</p>
+                    </div>
+                  </div>
+
+                  <!-- Add Arrows -->
+                  <div
+                    class="swiper-button-next"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Next slide"
+                    aria-disabled="false"
+                  ></div>
+                  <div
+                    class="swiper-button-prev swiper-button-disabled"
+                    tabindex="-1"
+                    role="button"
+                    aria-label="Previous slide"
+                    aria-disabled="true"
+                  ></div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination swiper-pagination-bullets">
+                    <span
+                      class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                    ></span
+                    ><span class="swiper-pagination-bullet"></span
+                    ><span class="swiper-pagination-bullet"></span>
+                  </div>
+                  <span
+                    class="swiper-notification"
+                    aria-live="assertive"
+                    aria-atomic="true"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-mediablock standard lightblue">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center flex toright">
+              <div
+                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 large-offset-0 xlarge-offset-1 aos-init"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <div class="textfield">
+                  <h3>Nya rutiner på Bettys!</h3>
+                  <p>
+                    Nu inför vi nya rutiner på Bettys städservice för att du som
+                    kund ska få bättre och mer hållbar service utförd i ditt hem
+                    eller på ditt företaget.
+                  </p>
+                  <p>
+                    <a
+                      class="btn green"
+                      href="https://www.bettysstad.se/new/rutiner/"
+                      >Läs mer</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 aos-init"
+                data-aos="fade-right"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="https://www.bettysstad.se/wp-content/uploads/2023/05/bettys-start-nya-rutiner.jpg"
+                  class="image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-mediablock wave darkblue">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center flex toleft">
+              <div
+                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 aos-init"
+                data-aos="fade-right"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <div class="textfield">
+                  <h2>Vill du prova vår hemstädning?</h2>
+                  <p>
+                    Just nu kan du prova vår hemstädning till ett lite extra bra
+                    pris. Boka ett kostnadsfritt hembesök på en tid som passar
+                    dig!
+                  </p>
+                  <ul class="checklist">
+                    <li><strong>139 kr/h första två månaderna</strong></li>
+                    <li><strong>Nöjd kund-garanti</strong></li>
+                    <li><strong>Inga bindningstider</strong></li>
+                  </ul>
+                  <form
+                    class="cypress-offerform"
+                    action="https://www.bettysstad.se/offert/"
+                    method="post"
+                  >
+                    <input
+                      type="hidden"
+                      name="init_offerform"
+                      value="1"
+                    /><input type="hidden" name="" value="1" />
+                    <div class="form-field-wrap">
+                      <div class="form-field">
+                        <input
+                          type="text"
+                          name="house_size"
+                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                          placeholder="Storlek m²"
+                        />
+                      </div>
+                      <div class="form-field noline">
+                        <input
+                          name="house_zipcode"
+                          type="text"
+                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                          placeholder="Postnummer"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-submit">
+                      <button
+                        type="submit"
+                        class="submit-button btn offer-btn get-offert"
+                      >
+                        Få offert här!
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div
+                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 large-offset-0 xlarge-offset-1 aos-init"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="https://www.bettysstad.se/wp-content/uploads/2023/05/bettys-hemstadning-prova-pa.jpg"
+                  class="image"
+                />
+
+                <div class="circle darkorange show">
+                  <p class="inner">Alltid lågt pris!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="cypress-textblock less-margin no-numbers aos-init"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center tx-blocks">
+              <div class="cell medium-12 large-10">
+                <h4 style="text-align: center">
+                  Städfirma i Göteborg &amp; Stockholm
+                </h4>
+                <p style="text-align: center">
+                  Att anlita oss på Bettys innebär att du får högklassig
+                  städning utan kompromisser, till ett av marknadens absolut
+                  bästa priser. Genom personlig kundservice, duktiga
+                  medarbetare, nöjd kund-garanti och en stor nypa positiv
+                  inställning har vi vuxit till ett av Sveriges största
+                  städföretag. Idag rekommenderar 9 av 10 kunder oss till andra,
+                  vilket vi är väldigt stolta över. Välkommen till oss på Bettys
+                  i Göteborg och Stockholm, du också!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="cypress-footer">
+        <div class="grid-container">
+          <div class="grid-x">
+            <div class="footer-inner">
+              <div class="footer-top">
+                <div class="ft-box ft-one">
+                  <a class="logo" href="https://www.bettysstad.se"
+                    ><img
+                      src="https://www.bettysstad.se/wp-content/themes/alberts/assets/img/svg/logo_footer.svg"
+                      alt="logo"
+                  /></a>
+                </div>
+                <div class="ft-box ft-two show-for-xlarge">
+                  <ul class="logos-company">
+                    <li>
+                      <div class="logo-com">
+                        <img
+                          src="https://www.bettysstad.se/wp-content/uploads/2020/09/loggo.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                    <li>
+                      <div class="logo-com">
+                        <img
+                          src="https://www.bettysstad.se/wp-content/uploads/2020/09/loggo.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                    <li>
+                      <div class="logo-com">
+                        <img
+                          src="https://www.bettysstad.se/wp-content/uploads/2020/09/loggo.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="ft-box ft-three">
+                <div class="ft-info">
+                  <div class="ft-info-about">
+                    <h4>Bettys Städ AB</h4>
+                    <p>
+                      Bettys är proffs på hemstädning och kontorsstädning. Vi
+                      har huvudkontor i Göteborg samt huvudkontor och
+                      servicekontor i Stockholm, men vi utför vår städhjälp på
+                      många orter i Sverige.
+                    </p>
+
+                    <ul class="ft-info-sm">
+                      <li>
+                        <a href="#"><span class="icon-facebook-alt"></span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span class="icon-instagram-alt"></span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span class="icon-linkedin-alt"></span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span class="icon-cision"></span></a
+                        ><span class="ci-text">Press</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="ft-support-office">
+                    <h4>Våra kontor</h4>
+                    <div class="ft-info-office-gbg">
+                      <h5>Huvudkontor Göteborg</h5>
+                      <p>
+                        Gustaf Werners gata 8B<br />
+                        421 32 Västra Frölunda<br />
+                        031-23 75 00
+                      </p>
+                    </div>
+                    <div class="ft-info-office-sthlm">
+                      <h5>Huvudkontor Stockholm</h5>
+                      <p>
+                        Fagerstagatan 18<br />
+                        163 53 Spånga<br />
+                        08-39 00 65
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ft-box ft-four">
+                <div class="ft-suppport">
+                  <div class="ft-support-about">
+                    <h4>Kundtjänst</h4>
+                    <p>
+                      Vi finns tillgängliga för dig om du har frågor eller
+                      funderingar om våra tjänster. Chatta direkt med oss, eller
+                      kontakta oss via telefon, SMS eller e-post. Välkommen!
+                    </p>
+                  </div>
+                  <div class="ft-support-times">
+                    <p>
+                      <b>Kundservice öppettider:</b><br />
+                      Måndag till fredag 8-17
+                    </p>
+                  </div>
+                  <div classa="ft-support-mail">
+                    <p>
+                      <b>Maila oss:</b><br />
+                      <a href="mailto:info@bettysstad.se">info@bettysstad.se</a>
+                    </p>
+                  </div>
+                  <div class="ft-support-phone">
+                    <p>
+                      <b>Ring oss direkt på:</b><br />
+                      <a href="tel:010-330 30 95">010-330 30 95</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ft-box ft-two ft-two-mob hide-for-xlarge">
+                <ul class="logos-company">
+                  <li>
+                    <div class="logo-com">
+                      <img
+                        src="https://www.bettysstad.se/wp-content/uploads/2020/09/loggo.png"
+                        alt="logo"
+                      />
+                    </div>
+                  </li>
+                  <li>
+                    <div class="logo-com">
+                      <img
+                        src="https://www.bettysstad.se/wp-content/uploads/2020/09/loggo.png"
+                        alt="logo"
+                      />
+                    </div>
+                  </li>
+                  <li>
+                    <div class="logo-com">
+                      <img
+                        src="https://www.bettysstad.se/wp-content/uploads/2020/09/loggo.png"
+                        alt="logo"
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="ft-bottom-info">
+                <p>
+                  Copyright © 2023 Bettys Städ AB. Alla rättigheter reserverade.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
