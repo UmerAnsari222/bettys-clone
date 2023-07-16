@@ -10482,7 +10482,7 @@ html.is-reveal-open.zf-has-scroll {
   content: "\2713";
 }
 
-.icon-price-tag:before {
+/* .icon-price-tag:before {
   content: "\75";
 }
 
@@ -10496,7 +10496,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .icon-instagram-alt:before {
   content: "\78";
-}
+} */
 
 .icon-arrow-down:before {
   content: "\2304";
@@ -13268,7 +13268,7 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 .cypress-accordionblock .row .question.open:after {
-  content: "\42";
+  content: "\2304";
 }
 
 .cypress-accordionblock .row .answer {
@@ -15086,7 +15086,7 @@ html.is-reveal-open.zf-has-scroll {
   li:nth-child(4)
   a
   span.icon-cision {
-  border: none;
+  border: 2px solid white;
 }
 
 .cypress-footer
@@ -17399,6 +17399,7 @@ body .gform_wrapper #field_1_28 {
     li {
     width: 49.5%;
     margin: 0 1% 1% 0;
+    list-style: none;
   }
 }
 

@@ -5,19 +5,44 @@ const attKundDropDown = getElement("data-att-vara-kund-drop-down");
 tjänsterDropDown.addEventListener("click", (e) => {
   console.log("Hell");
   e.stopPropagation();
-  getElement("data-submenu-tjänster").classList.toggle("is-active");
+
+  if (getElement("data-submenu-tjänster").classList.contains("is-active")) {
+    getElement("data-submenu-tjänster").style.display = "none";
+    getElement("data-submenu-tjänster").classList.remove("is-active");
+  } else {
+    getElement("data-submenu-tjänster").style.display = "block";
+    getElement("data-submenu-tjänster").classList.add("is-active");
+  }
 });
 
 städhemsidaDropDown.addEventListener("click", (e) => {
   console.log("Hell");
   e.stopPropagation();
-  getElement("data-submenu-om-städhemsida").classList.toggle("is-active");
+
+  if (
+    getElement("data-submenu-om-städhemsida").classList.contains("is-active")
+  ) {
+    getElement("data-submenu-om-städhemsida").style.display = "none";
+    getElement("data-submenu-om-städhemsida").classList.remove("is-active");
+  } else {
+    getElement("data-submenu-om-städhemsida").style.display = "block";
+    getElement("data-submenu-om-städhemsida").classList.add("is-active");
+  }
 });
 
 attKundDropDown.addEventListener("click", (e) => {
   console.log("Hell");
   e.stopPropagation();
-  getElement("data-submenu-att-vara-kund").classList.toggle("is-active");
+
+  if (
+    getElement("data-submenu-att-vara-kund").classList.contains("is-active")
+  ) {
+    getElement("data-submenu-att-vara-kund").style.display = "none";
+    getElement("data-submenu-att-vara-kund").classList.remove("is-active");
+  } else {
+    getElement("data-submenu-att-vara-kund").style.display = "block";
+    getElement("data-submenu-att-vara-kund").classList.add("is-active");
+  }
 });
 
 const questions = document.querySelectorAll(".row");
