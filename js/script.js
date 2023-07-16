@@ -61,7 +61,7 @@ const selectTillgångöppnar = getElement("data-tillgång-till-bostaden-öppnar"
 const selectTillgånglämnar = getElement("data-tillgång-till-bostaden-lämnar");
 // document.querySelector("[data-tillgång-till-bostaden-lämnar]");
 
-selectHemstädning.addEventListener("click", () => {
+selectHemstädning.addEventListener("click", (e) => {
   selectedOne(selectHemstädning, services);
   selectedService = "data-gernel-step";
 

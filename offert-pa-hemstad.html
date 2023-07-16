@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/classic.css" />
+    <!-- <link rel="stylesheet" href="./style/app.css" /> -->
   </head>
   <body>
     <main class="cypress-wrapper" id="cypress-wrapper">
@@ -359,7 +360,7 @@
                               <a
                                 id=""
                                 class="menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-28411 child standard"
-                                href="https://www.bettysstad.se/om-bettys/leverantorer/"
+                                href="./leverantorer.html"
                                 role="menuitem"
                               >
                                 <span>Leverantörer</span>
@@ -783,129 +784,86 @@
         </div>
       </section>
 
-      <div class="cypress-notice darkblue">
-        <div class="notice-content">
-          <p>
-            <strong style="color: white"
-              >städhemsida ♥ För en enklare vardag</strong
-            >
-          </p>
-        </div>
-        <div class="notice_close"></div>
-      </div>
-
       <div class="cypress-content mt-60">
-        <section class="cypress-heroblock">
+        <section class="cypress-heroblock cypress-heroblock_plain lightblue">
           <div class="grid-container">
             <div class="grid-x grid-margin-x align-center">
-              <span class="background lightblue"></span>
-
-              <div class="caption cell large-10 xlarge-6">
-                <div class="inner">
-                  <p class="big">
-                    Rent &amp; snyggt.<br />
-                    Helt enkelt.
-                  </p>
-                  <p>
-                    Välj städhemsida när du vill få det extra rent och snyggt
-                    hemma. Alltid till ett riktigt bra pris, alltid med
-                    kvalitetsgaranti.
-                  </p>
-                  <form
-                    class="cypress-offerform"
-                    action="./main.html"
-                    method="post"
-                  >
-                    <input
-                      type="hidden"
-                      name="init_offerform"
-                      value="1"
-                    /><input type="hidden" name="" value="1" />
-                    <div class="form-field-wrap">
-                      <div class="form-field">
-                        <input
-                          type="text"
-                          name="house_size"
-                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
-                          placeholder="Storlek m²"
-                        />
-                      </div>
-                      <div class="form-field noline">
-                        <input
-                          name="house_zipcode"
-                          type="text"
-                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
-                          placeholder="Postnummer"
-                        />
-                      </div>
-                    </div>
-                    <div class="form-submit">
-                      <a
-                        href="./main.html"
-                        type="submit"
-                        class="submit-button btn offer-btn get-offert"
-                      >
-                        Få offert här!
-                      </a>
-                    </div>
-                  </form>
-                </div>
-
-                <ul class="usps">
-                  <li>
-                    <span class="icon-check"></span
-                    ><span class="usp-text">139 kr/h första två månaderna</span>
-                  </li>
-                  <li>
-                    <span class="icon-check"></span
-                    ><span class="usp-text">Inga bindningstider</span>
-                  </li>
-                  <li>
-                    <span class="icon-check"></span
-                    ><span class="usp-text">Nöjd kund-garanti</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="media cell large-10 xlarge-6">
-                <div>
-                  <img
-                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/bettys_vara-varderingar.jpg"
-                    class="image"
-                  />
-                </div>
-
-                <div class="circle darkorange show">
-                  <p class="inner">Alltid lågt pris!</p>
+              <div class="breadcrumb-wrap show-for-large">
+                <div class="grid-container">
+                  <nav id="breadcrumbs" class="breadcrumbs">
+                    <span
+                      ><span
+                        ><a href="https://www.bettysstad.se/">Hem</a> /
+                        <span class="breadcrumb_last" aria-current="page"
+                          >Offert på hemstäd</span
+                        ></span
+                      ></span
+                    >
+                  </nav>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="green_circle show"></div>
-        </section>
 
-        <section
-          class="cypress-textblock no-numbers aos-init"
-          data-aos="fade-up"
-          data-aos-delay="100"
-          data-aos-duration="1000"
-        >
-          <div class="grid-container narrow">
-            <div class="grid-x grid-margin-x align-center tx-blocks">
-              <div class="cell medium-12 large-10">
+              <div class="caption cell medium-12 xlarge-10 xxlarge-8">
                 <h1 style="text-align: center">
-                  städhemsida Städ<br />
-                  – städföretag i Göteborg &amp; Stockholm
+                  Få offert på hemstädning här!
                 </h1>
                 <p style="text-align: center">
-                  Välkommen till oss på Bettys. Vi gör vardagen enklare, för
-                  både företag och privatpersoner. Med våra 6 000 städuppdrag
-                  varje månad, en passion för nöjda kunder och våra fantastiska
-                  medarbetare kan du alltid vara trygg i att du får
-                  kvalitetssäkrad, högklassig städning. Till ett av marknadens
-                  bästa priser.
+                  Lämna dina uppgifter nedan, det tar bara en minut,&nbsp; så
+                  återkommer vi inom 24 timmar. Självklart stannar dina
+                  uppgifter hos oss. Tack för att du kontaktar oss på Bettys!
                 </p>
+                <p style="text-align: center"></p>
+                <form
+                  class="cypress-offerform"
+                  action="https://www.bettysstad.se/offert/hemstadning/"
+                  method="post"
+                >
+                  <input type="hidden" name="init_offerform" value="1" /><input
+                    type="hidden"
+                    name=""
+                    value="1"
+                  />
+                  <div class="form-field-wrap">
+                    <div class="form-field">
+                      <input
+                        type="text"
+                        name="house_size"
+                        onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                        placeholder="Storlek m²"
+                      />
+                    </div>
+                    <div class="form-field noline">
+                      <input
+                        name="house_zipcode"
+                        type="text"
+                        onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                        placeholder="Postnummer"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-submit">
+                    <button type="submit" class="submit-button btn offer-btn">
+                      Få offert här!
+                    </button>
+                  </div>
+                </form>
+                <p></p>
               </div>
+
+              <ul class="usps">
+                <li>
+                  <span class="icon-check"></span
+                  ><span class="usp-text">139 kr/h första två månaderna</span>
+                </li>
+                <li>
+                  <span class="icon-check"></span
+                  ><span class="usp-text">Inga bindningstider</span>
+                </li>
+                <li>
+                  <span class="icon-check"></span
+                  ><span class="usp-text">Nöjd kund-garanti</span>
+                </li>
+              </ul>
             </div>
           </div>
         </section>
@@ -913,7 +871,7 @@
           <div class="grid-container">
             <div class="grid-x grid-margin-x align-center">
               <div
-                class="logobox cell small-6 large-6 xlarge-3 aos-init"
+                class="logobox cell small-6 large-6 xlarge-3 aos-init aos-animate"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="100"
@@ -928,7 +886,7 @@
               </div>
 
               <div
-                class="logobox cell small-6 large-6 xlarge-3 aos-init"
+                class="logobox cell small-6 large-6 xlarge-3 aos-init aos-animate"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="200"
@@ -944,583 +902,157 @@
             </div>
           </div>
         </section>
-        <section class="cypress-serviceblock">
-          <span class="bg"></span>
 
+        <section
+          class="cypress-textblock numbers aos-init text-left"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <div class="grid-container">
-            <div class="intro grid-x grid-margin-x">
-              <div class="cell small-6 large-8">
-                <h2>Våra städtjänster</h2>
-              </div>
-
-              <div class="cell small-6 large-4">
-                <div class="switch-bar">
-                  <span id="switch-1" class="switched active">Privat</span>
-                  <span id="switch-2" class="switched">Företag</span>
-                </div>
+            <div class="grid-x grid-margin-x align-center">
+              <div class="abstract cell medium-12 large-10 xlarge-8">
+                <h2 style="text-align: center">Så här fungerar det</h2>
+                <p style="text-align: center">
+                  Vi börjar alltid med ett kostnadsfritt hembesök, så att du får
+                  ett riktigt bra pris utifrån just dina förutsättningar och
+                  behov.
+                </p>
               </div>
             </div>
 
-            <div
-              id="page-1"
-              class="services-grid grid-x grid-margin-x"
-              style=""
-            >
+            <div class="grid-x grid-margin-x align-center tx-blocks">
               <div
-                class="service cell small-6 xlarge-3 aos-init"
-                data-aos="fade-up"
-                data-aos-delay="50"
-                data-aos-duration="1000"
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
               >
-                <a
-                  href="https://www.bettysstad.se/tjanster/hemstadning/"
-                  class="link"
-                >
-                  <img
-                    width="974"
-                    height="852"
-                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1.jpg         974w,
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1-600x525.jpg 600w,
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1-768x672.jpg 768w
-                    "
-                    sizes="(max-width: 974px) 100vw, 974px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Hemstädning</h4>
-                  </div>
-                </a>
+                <span class="col-number">1</span>
+                <p style="text-align: center">
+                  Fyll i dina uppgifter på hemsidan eller ring oss för att boka
+                  hembesök
+                </p>
               </div>
 
               <div
-                class="service cell small-6 xlarge-3 aos-init"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
               >
-                <a
-                  href="https://www.bettysstad.se/tjanster/flyttstadning/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Flyttstädning</h4>
-                  </div>
-                </a>
+                <span class="col-number">2</span>
+                <p style="text-align: center">
+                  Vi besöker dig för att ta fram en skräddarsydd offert
+                </p>
               </div>
 
               <div
-                class="service cell small-6 xlarge-3 aos-init"
-                data-aos="fade-up"
-                data-aos-delay="150"
-                data-aos-duration="1000"
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
               >
-                <a
-                  href="https://www.bettysstad.se/tjanster/storstadning/"
-                  class="link"
-                >
-                  <img
-                    width="1001"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2.jpg         1001w,
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2-768x673.jpg  768w
-                    "
-                    sizes="(max-width: 1001px) 100vw, 1001px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Storstädning</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init"
-                data-aos="fade-up"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/tjanster/fonsterputs/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Fönsterputs</h4>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div
-              id="page-2"
-              class="services-grid grid-x grid-margin-x"
-              style="display: none"
-            >
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/kontorsstadning/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Kontorsstädning</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/fonsterputs/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/fonsterputs-hero.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/fonsterputs-hero.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/fonsterputs-hero-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/fonsterputs-hero-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Fönsterputs</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="150"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/trappstadning/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/trappstadning-hero.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/trappstadning-hero.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/trappstadning-hero-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/trappstadning-hero-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Trappstädning</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/byggstadning/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/byggstadning-hero.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/byggstadning-hero.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/byggstadning-hero-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/byggstadning-hero-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Byggstädning</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="250"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/flyttstadning/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Flyttstädning</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/stadning-gym-traningslokaler/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/gymstadning-hero.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/gymstadning-hero.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/gymstadning-hero-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/gymstadning-hero-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Gym och träningslokaler</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="350"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/skolstadning/"
-                  class="link"
-                >
-                  <img
-                    width="1104"
-                    height="844"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b.jpg          1104w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b-600x459.jpg   600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b-1024x783.jpg 1024w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b-552x422.jpg   552w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_skola_01_b-768x587.jpg   768w
-                    "
-                    sizes="(max-width: 1104px) 100vw, 1104px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Skola och förskola</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="400"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/golvvard/"
-                  class="link"
-                >
-                  <img
-                    width="1104"
-                    height="844"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01.jpg          1104w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01-600x459.jpg   600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01-1024x783.jpg 1024w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01-552x422.jpg   552w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_golvvard_01-768x587.jpg   768w
-                    "
-                    sizes="(max-width: 1104px) 100vw, 1104px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Golvvård</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="450"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/butiksstadning/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/butiksstadning-mid.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/butiksstadning-mid.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/butiksstadning-mid-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/butiksstadning-mid-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Butiksstädning</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="500"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/entremattor/"
-                  class="link"
-                >
-                  <img
-                    width="1104"
-                    height="844"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt="Berendsen part of Elis"
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01.jpg          1104w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01-600x459.jpg   600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01-1024x783.jpg 1024w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01-552x422.jpg   552w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2020/09/button_entremattor_01-768x587.jpg   768w
-                    "
-                    sizes="(max-width: 1104px) 100vw, 1104px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Entrémattor</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="550"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/industristadning/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/industristadning-hero.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/industristadning-hero.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/industristadning-hero-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/industristadning-hero-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Industristädning</h4>
-                  </div>
-                </a>
-              </div>
-
-              <div
-                class="service cell small-6 xlarge-3 aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="600"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="https://www.bettysstad.se/foretag/tjanster/lokalvard/"
-                  class="link"
-                >
-                  <img
-                    width="1000"
-                    height="877"
-                    src="https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/lokalvard-hero.jpg"
-                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                    srcset="
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/lokalvard-hero.jpg         1000w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/lokalvard-hero-600x526.jpg  600w,
-                      https://www.bettysstad.se/wp-content/uploads/sites/2/2023/05/lokalvard-hero-768x674.jpg  768w
-                    "
-                    sizes="(max-width: 1000px) 100vw, 1000px"
-                  />
-
-                  <div class="inner">
-                    <h4 class="title">Lokalvård</h4>
-                  </div>
-                </a>
+                <span class="col-number">3</span>
+                <p style="text-align: center">
+                  När du godkänt offerten startar vi städningen enligt dina
+                  önskemål
+                </p>
               </div>
             </div>
           </div>
         </section>
-
-        <section class="cypress-mediablock standard noimg lightblue">
+        <section class="cypress-accordionblock bg lightorange">
           <div class="grid-container">
-            <div class="grid-x grid-margin-x align-center flex toright">
-              <div
-                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 large-offset-0 xlarge-offset-1 aos-init"
-                data-aos="fade-left"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-              >
-                <div class="textfield">
-                  <h3>50% avdrag direkt på fakturan</h3>
-                  <p>
-                    När du köper hushållsnära tjänster av städhemsida får du
-                    alltid 50% skattereduktion på hela arbetskostnaden. Du
-                    behöver inte göra något själv, vi gör avdraget på fakturan.
-                  </p>
+            <div class="grid-x grid-margin-x align-center">
+              <div class="accordion cell medium-12 xlarge-10 xxlarge-7">
+                <h2 class="title">Vad ingår?</h2>
+                <div class="group">
+                  <div class="row">
+                    <p class="question">Städning av samtliga rum</p>
+                    <div class="answer">
+                      <ul>
+                        <li>Spegelputsning</li>
+                        <li>
+                          Dammsugning av golv, lister, kontakter, element,
+                          mattor samt stoppade och klädda möbler
+                        </li>
+                        <li>
+                          Dammtorkning av fönsterbrädor och alla fria ytor
+                        </li>
+                        <li>Borttagning av fläckar på dörrar och karmar</li>
+                        <li>
+                          Golven fuktmoppas, eller enligt överenskommelse med er
+                        </li>
+                        <li>Tömning av papperskorgar</li>
+                        <li>
+                          Tavelramar och hängande väggdekorationer i ståhöjd
+                          dammas av
+                        </li>
+                        <li>Lampskärmar i arbetshöjd dammas av</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Rengöring av toaletter och badrum</p>
+                    <div class="answer">
+                      <ul>
+                        <li>Spegelputsning</li>
+                        <li>Torkning av fläckar på badrumsskåp och vitvaror</li>
+                        <li>Dusch, badkar, handfat och toalett rengöres</li>
+                        <li>Torkning av fläckar från väggar</li>
+                        <li>Duschväggar avtorkas</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Städning av kök</p>
+                    <div class="answer">
+                      <ul>
+                        <li>Invändig rengöring av microvågsugn</li>
+                        <li>
+                          In- och utvändig rengöring av utrymme där sopor
+                          förvaras
+                        </li>
+                        <li>Köksbänk, diskbänk, spis och kakelvägg rengörs</li>
+                        <li>
+                          Avtorkning av fläckar på fläkt, köksluckor och utsidan
+                          av vitvaror
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">
+                      Bra att tänka på innan vi besöker dig
+                    </p>
+                    <div class="answer">
+                      <ul>
+                        <li>
+                          För bästa resultat, se till att dammsugare och övriga
+                          redskap är i bra skick
+                        </li>
+                        <li>
+                          Om tid finns, plocka gärna undan leksaker, disk och
+                          kläder så blir vi mer effektiva i ditt hem
+                        </li>
+                        <li>
+                          Se till att samtliga rengöringsmedel finns hemma
+                          enligt den listan ni erhåller i samband med hembesök.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Vi kan ta hand om strykningen också!</p>
+                    <div class="answer">
+                      <ul>
+                        <li>
+                          Vi stryker snabbt och enkelt dina skjortor och kläder
+                          när vi ändå besöker ditt hem – meddela oss om du vill
+                          att det skall ingå i veckostädningen.
+                        </li>
+                        <li>
+                          Det enda vi behöver från dig är en hel och ren
+                          strykbräda, ett välfungerande strykjärn och en
+                          vattenflaska med sprayfunktion – sen kan vi göra din
+                          vardag ännu enklare.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-              </div>
-
-              <div
-                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 show-for-xlarge aos-init"
-                data-aos="fade-right"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-              >
-                <img
-                  src="https://www.bettysstad.se/wp-content/uploads/2023/05/bettys-rut-stadning.jpg"
-                  class="image"
-                />
               </div>
             </div>
           </div>
@@ -1540,34 +1072,37 @@
                   <div class="swiper-wrapper">
                     <div
                       class="swiper-slide quote swiper-slide-active"
-                      style="width: 513px"
+                      style="width: 526px"
                     >
                       <p class="text">
-                        ”Briljant städ! Snabb och effektivt utan något slarv.
-                        Bra kommunikation och inga konstigheter. Rekommenderas!”
+                        ”Jag är jättenöjd! Trevlig personal, bra bemötande från
+                        kontoret och alltid noggrann och bra städning. Det är
+                        fint in i minsta detalj när dom varit här. Rekommenderas
+                        varmt!”
                       </p>
-                      <p class="name">Sebastian O, 5/5 stjärnor, Google plus</p>
+                      <p class="name">
+                        Familjen Persson, 5/5 stjärnor, Google plus
+                      </p>
                     </div>
                     <div
                       class="swiper-slide quote swiper-slide-next"
-                      style="width: 513px"
+                      style="width: 526px"
                     >
                       <p class="text">
-                        ”Jag har upplevt en alldeles utomordentlig service,
-                        närhet och ett fint ompysslande av själva
-                        städpersonalen! Rekommenderas!”
+                        ”Jag rekommenderar städhemsida till alla som funderar på
+                        hemstädning. Punktliga, noggranna städare. Hembesök
+                        innan man bestämmer sig. Bra pris.
                       </p>
-                      <p class="name">Mette B, 5/5 stjärnor, Google plus</p>
+                      <p class="name">Alexandra N, 4/5 stjärnor, Eniro.se</p>
                     </div>
-                    <div class="swiper-slide quote" style="width: 513px">
+                    <div class="swiper-slide quote" style="width: 526px">
                       <p class="text">
-                        ”Vi är mycket nöjda med städhemsida Städ! De har en
-                        mycket bra kundservice, är seriösa, professionella och
-                        städpersonalen har en yrkesstolthet. Det är rent och
-                        fint när vi kommer hem vilket underlättar vår vardag
-                        mycket. Rekommenderar starkt städhemsida till alla.”
+                        ”Jag är så nöjd med min städning. Välgjort och
+                        omsorgsfullt arbete, utfört av proffs. Tydlig
+                        specifikation för vad som ska städas och hur det går
+                        till.”
                       </p>
-                      <p class="name">Em L, 5/5 stjärnor, RECO.se</p>
+                      <p class="name">Titti N, 5/5 stjärnor, Google plus</p>
                     </div>
                   </div>
 
@@ -1605,47 +1140,6 @@
           </div>
         </section>
 
-        <section class="cypress-mediablock standard lightblue">
-          <div class="grid-container">
-            <div class="grid-x grid-margin-x align-center flex toright">
-              <div
-                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 large-offset-0 xlarge-offset-1 aos-init"
-                data-aos="fade-left"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-              >
-                <div class="textfield">
-                  <h3>Nya rutiner på Bettys!</h3>
-                  <p>
-                    Nu inför vi nya rutiner på städhemsida städservice för att
-                    du som kund ska få bättre och mer hållbar service utförd i
-                    ditt hem eller på ditt företaget.
-                  </p>
-                  <p>
-                    <a
-                      class="btn green"
-                      href="https://www.bettysstad.se/new/rutiner/"
-                      >Läs mer</a
-                    >
-                  </p>
-                </div>
-              </div>
-
-              <div
-                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 aos-init"
-                data-aos="fade-right"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-              >
-                <img
-                  src="https://www.bettysstad.se/wp-content/uploads/2023/05/bettys-start-nya-rutiner.jpg"
-                  class="image"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section class="cypress-mediablock wave darkblue">
           <div class="grid-container">
             <div class="grid-x grid-margin-x align-center flex toleft">
@@ -1664,10 +1158,14 @@
                   </p>
                   <ul class="checklist">
                     <li><strong>139 kr/h första två månaderna</strong></li>
-                    <li><strong>Nöjd kund-garanti</strong></li>
                     <li><strong>Inga bindningstider</strong></li>
+                    <li><strong>Nöjd kund-garanti</strong></li>
                   </ul>
-                  <form class="cypress-offerform" action="" method="post">
+                  <form
+                    class="cypress-offerform"
+                    action="https://www.bettysstad.se/offert/hemstadning/"
+                    method="post"
+                  >
                     <input
                       type="hidden"
                       name="init_offerform"
@@ -1692,12 +1190,13 @@
                       </div>
                     </div>
                     <div class="form-submit">
-                      <button
+                      <a
+                        href="./main.html"
                         type="submit"
-                        class="submit-button btn offer-btn get-offert"
+                        class="submit-button btn offer-btn"
                       >
                         Få offert här!
-                      </button>
+                      </a>
                     </div>
                   </form>
                 </div>
@@ -1710,7 +1209,7 @@
                 data-aos-duration="2000"
               >
                 <img
-                  src="https://www.bettysstad.se/wp-content/uploads/2023/05/bettys-hemstadning-prova-pa.jpg"
+                  src="https://www.bettysstad.se/wp-content/uploads/2020/08/hemstadning-974x852.jpg"
                   class="image"
                 />
 
@@ -1722,28 +1221,47 @@
           </div>
         </section>
 
-        <section
-          class="cypress-textblock less-margin no-numbers aos-init"
-          data-aos="fade-up"
-          data-aos-delay="100"
-          data-aos-duration="1000"
-        >
+        <section class="cypress-officeblock">
           <div class="grid-container">
-            <div class="grid-x grid-margin-x align-center tx-blocks">
-              <div class="cell medium-12 large-10">
-                <h4 style="text-align: center">
-                  Städfirma i Göteborg &amp; Stockholm
-                </h4>
+            <div class="grid-x grid-margin-x align-center">
+              <div
+                class="abstract cell medium-12 large-10 aos-init"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
+                <h2 style="text-align: center">
+                  Tveka inte på att kontakta oss om du har frågor!
+                </h2>
                 <p style="text-align: center">
-                  Att anlita oss på städhemsida innebär att du får högklassig
-                  städning utan kompromisser, till ett av marknadens absolut
-                  bästa priser. Genom personlig kundservice, duktiga
-                  medarbetare, nöjd kund-garanti och en stor nypa positiv
-                  inställning har vi vuxit till ett av Sveriges största
-                  städföretag. Idag rekommenderar 9 av 10 kunder oss till andra,
-                  vilket vi är väldigt stolta över. Välkommen till oss på Bettys
-                  i Göteborg och Stockholm, du också!
+                  Har du ytterligare frågor om vår städning eller service? Då är
+                  du varmt välkommen att mejla eller ringa vår kundtjänst, eller
+                  lämna dina kontaktuppgifter på hemsidan så kontaktar vi dig.
                 </p>
+              </div>
+            </div>
+
+            <div
+              class="office-wrap grid-x grid-margin-x align-center aos-init"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              <div class="office cell medium-12 large-8 xlarge-5 xxlarge-4">
+                <h3 class="city">Kundtjänst Göteborg</h3>
+                <a href="tel:031-237500" class="phone">031-237500</a>
+                <a href="mailto: info@bettysstad.se" class="mail"
+                  >info@bettysstad.se</a
+                >
+              </div>
+              <div class="office cell medium-12 large-8 xlarge-5 xxlarge-4">
+                <h3 class="city">Kundtjänst Stockholm</h3>
+                <a href="tel:08-390065" class="phone">08-390065</a>
+                <a href="mailto: info@bettysstad.se" class="mail"
+                  >info@bettysstad.se</a
+                >
               </div>
             </div>
           </div>

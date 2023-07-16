@@ -10388,7 +10388,7 @@ html.is-reveal-open.zf-has-scroll {
   padding: 0 0.25rem;
 }
 
-/* @font-face {
+@font-face {
   font-family: alberts;
   src: url(/wp-content/themes/alberts/public/alberts.eot);
   src: url(/wp-content/themes/alberts/public/alberts.eot?#iefix)
@@ -10398,7 +10398,7 @@ html.is-reveal-open.zf-has-scroll {
     url(/wp-content/themes/alberts/public/alberts.svg#alberts) format("svg");
   font-weight: 400;
   font-style: normal;
-} */
+}
 
 [data-icon]:before {
   font-family: alberts !important;
@@ -11398,14 +11398,12 @@ html.is-reveal-open.zf-has-scroll {
     margin-right: 8px;
   }
 
-  .cypress-menu
-    .is-accordion-submenu-parent:not(.has-submenu-toggle)
-    > a:after {
+  .cypress-menu .is-accordion-submenu-parent > a:after {
     content: "\2304" !important;
     font-family: alberts !important;
     color: #1e2f56;
     border: none !important;
-    font-size: 10px;
+    font-size: 0px !important;
     position: relative;
     width: unset;
     height: unset;
@@ -12945,12 +12943,12 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 .cypress-videoblock .bg.lightgreen {
-  background: url("../assets/img/background-mobile-lightgreen.svg");
+  background: url(/wp-content/themes/alberts/public/background-mobile-lightgreen.svg);
 }
 
 @media screen and (min-width: 64em) {
   .cypress-videoblock .bg.lightgreen {
-    background: url("../assets/img/background-mobile-lightgreen.svg");
+    background: url(/wp-content/themes/alberts/public/background-lightgreen.svg);
   }
 }
 
@@ -13181,7 +13179,7 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 .cypress-accordionblock.bg.lightgreen {
-  background: url("../assets/img/background-mobile-lightgreen.svg");
+  background: url(/wp-content/themes/alberts/public/background-mobile-lightgreen.svg);
 }
 
 @media print, screen and (min-width: 40em) {
@@ -13190,7 +13188,7 @@ html.is-reveal-open.zf-has-scroll {
   }
 
   .cypress-accordionblock.bg.lightgreen::before {
-    background: url("../assets/img/background-mobile-lightgreen.svg");
+    background: url(/wp-content/themes/alberts/public/background-lightgreen.svg);
   }
 }
 
@@ -13757,7 +13755,7 @@ html.is-reveal-open.zf-has-scroll {
   }
 
   .cypress-linksblock.bg.darkblue::before {
-    background: url("../assets/img/background-mobile-blue.svg");
+    background: url(/wp-content/themes/alberts/public/background-blue.svg);
   }
 }
 
@@ -13778,7 +13776,7 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 .cypress-linksblock.bg.lightgreen {
-  background: url("../assets/img/background-mobile-lightgreen.svg");
+  background: url(/wp-content/themes/alberts/public/background-mobile-lightgreen.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -13789,7 +13787,7 @@ html.is-reveal-open.zf-has-scroll {
   }
 
   .cypress-linksblock.bg.lightgreen::before {
-    background: url("../assets/img/background-mobile-lightgreen.svg");
+    background: url(/wp-content/themes/alberts/public/background-lightgreen.svg);
   }
 }
 
@@ -14368,7 +14366,7 @@ html.is-reveal-open.zf-has-scroll {
   right: 0;
   left: 0;
   height: calc(100% - 140px);
-  background: url("../assets/img/background-mobile-lightgreen.svg");
+  background: url(/wp-content/themes/alberts/public/background-mobile-lightgreen.svg);
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: top center;
@@ -14379,7 +14377,7 @@ html.is-reveal-open.zf-has-scroll {
 
 @media screen and (min-width: 64em) {
   .cypress-serviceblock .bg {
-    background: url("../assets/img/background-mobile-lightgreen.svg");
+    background: url(/wp-content/themes/alberts/public/background-lightgreen.svg);
   }
 }
 
@@ -14619,7 +14617,6 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-contactblock .contact-form .af-field .af-input input,
 .cypress-contactblock .contact-form .af-field .af-input textarea {
-  width: 100%;
   font-size: 1.125rem;
   color: #8a8a8a;
   border: solid 1px #c1c1c1;
@@ -15584,7 +15581,7 @@ html.is-reveal-open.zf-has-scroll {
   right: 0;
   left: 0;
   height: 100%;
-  background: url("../assets/img/background-mobile-lightgreen.svg");
+  background: url(/wp-content/themes/alberts/public/background-mobile-lightgreen.svg);
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: top center;
@@ -16951,7 +16948,6 @@ body .gform_wrapper #field_1_28 {
   -webkit-appearance: none;
   -moz-appearance: none;
   margin-bottom: 2px;
-  width: 100%;
 }
 
 .cypress-large-offerform .acf-form {
@@ -17078,10 +17074,11 @@ body .gform_wrapper #field_1_28 {
   color: transparent;
 }
 
-.cypress-large-offerform .af-page-wrap .af-page-button.enabled .index::before {
-  content: "\2713";
+.cypress-large-offerform .af-page-wrap .af-page-button.enabled .index:before {
+  content: "\43";
+  font-family: alberts;
   font-weight: 400;
-  padding: 0 0.42rem;
+  padding: 0 0.35rem;
   color: #fff;
 }
 
@@ -17899,7 +17896,6 @@ body .gform_wrapper #field_1_28 {
   padding: 0;
   font-size: 1.125rem;
   outline: 0;
-  width: 100%;
 }
 
 .cypress-large-offerform
@@ -18102,7 +18098,7 @@ body .gform_wrapper #field_1_28 {
   .acf-field[data-name="ingen_portkod"]
   .acf-input
   input[type="checkbox"]:checked:before {
-  content: "\2713";
+  content: "\43";
   font-family: alberts;
   color: #fff;
   position: absolute;
@@ -18111,7 +18107,6 @@ body .gform_wrapper #field_1_28 {
   font-size: 1.1rem;
   line-height: 1;
   font-weight: 300 !important;
-  text-align: center;
 }
 
 .cypress-large-offerform
@@ -18195,21 +18190,21 @@ body .gform_wrapper #field_1_28 {
   .af-field-type-group[data-name="typ_av_fonster"]
   .acf-fields
   .acf-field.no-sprojs:before {
-  background-image: url("../assets/img/window-1.png");
+  background-image: url(/wp-content/themes/alberts/public/window-1.png);
 }
 
 .cypress-large-offerform
   .af-field-type-group[data-name="typ_av_fonster"]
   .acf-fields
   .acf-field.overhangt:before {
-  background-image: url("../assets/img/window-2.png");
+  background-image: url(/wp-content/themes/alberts/public/window-2.png);
 }
 
 .cypress-large-offerform
   .af-field-type-group[data-name="typ_av_fonster"]
   .acf-fields
   .acf-field.sprojs:before {
-  background-image: url("../assets/img/window-3.png");
+  background-image: url(/wp-content/themes/alberts/public/window-3.png);
 }
 
 .cypress-large-offerform
@@ -18641,7 +18636,7 @@ body .gform_wrapper #field_1_28 {
 }
 
 .cypress-large-offerform .af-submit .af-next-button:after {
-  content: "\27F6";
+  content: "\2192";
   font-family: alberts;
   font-size: 1rem;
   vertical-align: middle;
@@ -19026,7 +19021,7 @@ body .gform_wrapper #field_1_28 {
   right: 0;
   left: 0;
   height: 100%;
-  background: url("../assets/img/background-mobile-lightgreen.svg");
+  background: url(/wp-content/themes/alberts/public/background-mobile-lightgreen.svg);
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: top center;
@@ -19300,7 +19295,7 @@ body .gform_wrapper #field_1_28 {
   right: 0;
   left: 0;
   height: 100%;
-  background: url("../assets/img/background-mobile-lightgreen.svg");
+  background: url(/wp-content/themes/alberts/public/background-mobile-lightgreen.svg);
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: top center;
@@ -19311,7 +19306,7 @@ body .gform_wrapper #field_1_28 {
 
 @media screen and (min-width: 64em) {
   .cypress-article-archive .lastest-post .bg {
-    background: url("../assets/img/background-mobile-lightgreen.svg");
+    background: url(/wp-content/themes/alberts/public/background-lightgreen.svg);
   }
 }
 
@@ -19427,11 +19422,4 @@ body .gform_wrapper #field_1_28 {
   .cypress-article-archive .lastest-post .news-post .more:after {
     top: 0;
   }
-}
-
-.af-label,
-.acf-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
