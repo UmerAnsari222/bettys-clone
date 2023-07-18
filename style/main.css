@@ -18825,12 +18825,18 @@ body .gform_wrapper #field_1_28 {
   -webkit-animation: opt3 4s infinite;
   animation: opt3 4s infinite;
   background: #34ac57;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @media print, screen and (min-width: 40em) {
   .cypress-offerform .form-submit .submit-button {
     font-size: 1.125rem;
     padding: 1.065rem 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 }
 
