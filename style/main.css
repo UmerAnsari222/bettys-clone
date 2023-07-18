@@ -1074,9 +1074,9 @@ template {
 }
 
 /*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
+   *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+   *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+   */
 @font-face {
   font-family: FontAwesome;
   src: url(/wp-content/themes/alberts/public/fontawesome-webfont.eot);
@@ -10467,7 +10467,7 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 .icon-phone:before {
-  content: "\6f";
+  content: "\260E";
 }
 
 .icon-map:before {
@@ -10503,7 +10503,7 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 .icon-check-1:before {
-  content: "\43";
+  content: "\2713";
 }
 
 @media screen and (min-width: 1224px) {
@@ -10900,12 +10900,12 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 /*!
- * Hamburgers
- * @description Tasty CSS-animated hamburgers
- * @author Jonathan Suh @jonsuh
- * @site https://jonsuh.com/hamburgers
- * @link https://github.com/jonsuh/hamburgers
- */
+   * Hamburgers
+   * @description Tasty CSS-animated hamburgers
+   * @author Jonathan Suh @jonsuh
+   * @site https://jonsuh.com/hamburgers
+   * @link https://github.com/jonsuh/hamburgers
+   */
 .hamburger {
   padding: 15px 0 15px 15px;
   display: inline-block;
@@ -11118,7 +11118,7 @@ html.is-reveal-open.zf-has-scroll {
     .sa-city
     .city-number
     a.blue-link::before {
-    content: "\6f";
+    content: "\260E";
     font-family: alberts;
     position: relative;
     top: 2px;
@@ -14651,7 +14651,7 @@ html.is-reveal-open.zf-has-scroll {
   .contact-form
   .af-field-integritetspolicy
   input[type="checkbox"]:checked:before {
-  content: "\43";
+  content: "\2713";
   font-family: alberts;
   color: #fff;
   position: absolute;
@@ -15071,7 +15071,7 @@ html.is-reveal-open.zf-has-scroll {
   li:nth-child(4)
   a
   span.icon-cision {
-  border: none;
+  border: 2px solid #fff;
 }
 
 .cypress-footer
@@ -15135,7 +15135,6 @@ html.is-reveal-open.zf-has-scroll {
   span.icon-cision {
   padding: 8px 9px 3px 11px;
   position: relative;
-  background-image: url(/wp-content/themes/alberts/public/Icon_cision.svg);
   background-repeat: no-repeat;
   background-position: center;
   height: 45px;
@@ -16737,7 +16736,7 @@ body.moove_gdpr_overflow {
   .gf_page_steps
   .gf_step.gf_step_completed
   .gf_step_number:before {
-  content: "\43";
+  content: "\2713";
   font-family: alberts;
   font-weight: 400;
   padding: 0 0.35rem;
@@ -17063,7 +17062,7 @@ body .gform_wrapper #field_1_28 {
 }
 
 .cypress-large-offerform .af-page-wrap .af-page-button.enabled .index:before {
-  content: "\43";
+  content: "\2713";
   font-family: alberts;
   font-weight: 400;
   padding: 0 0.35rem;
@@ -17877,6 +17876,7 @@ body .gform_wrapper #field_1_28 {
   .acf-fields
   .acf-field
   input {
+  width: 100%;
   padding: 1.125rem !important;
   border: solid 1px #c1c1c1;
   color: #393939;
@@ -18086,7 +18086,7 @@ body .gform_wrapper #field_1_28 {
   .acf-field[data-name="ingen_portkod"]
   .acf-input
   input[type="checkbox"]:checked:before {
-  content: "\43";
+  content: "\2713";
   font-family: alberts;
   color: #fff;
   position: absolute;
@@ -18386,6 +18386,7 @@ body .gform_wrapper #field_1_28 {
   .acf-fields
   .acf-field
   textarea {
+  width: 100%;
   padding: 1.125rem !important;
   border: solid 1px #c1c1c1;
   border-radius: 0.25rem;
@@ -18452,7 +18453,7 @@ body .gform_wrapper #field_1_28 {
   .af-field[data-name="integritetspolicy"]
   .acf-input
   input[type="checkbox"]:checked:before {
-  content: "\43";
+  content: "\2713";
   font-family: alberts;
   color: #fff;
   position: absolute;
@@ -18672,10 +18673,9 @@ body .gform_wrapper #field_1_28 {
 @media print, screen and (min-width: 40em) {
   .cypress-large-offerform .af-submit .af-submit-button {
     width: auto;
-    border-radius: 2rem;
+    border-radius: 2rem !important;
     padding: 1.1875rem 2.0625rem !important;
     display: block;
-    padding: 1.1875rem 3.8125rem;
     outline: 0;
     background: #34ac57;
   }
@@ -19410,4 +19410,11 @@ body .gform_wrapper #field_1_28 {
   .cypress-article-archive .lastest-post .news-post .more:after {
     top: 0;
   }
+}
+
+.af-label,
+.acf-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
