@@ -154,14 +154,6 @@ template {
   display: none;
 }
 
-@font-face {
-  font-family: swiper-icons;
-  src: url("data:application/font-woff;charset=utf-8;base64, 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")
-    format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
 :root {
   --swiper-theme-color: #007aff;
 }
@@ -415,7 +407,6 @@ template {
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  font-family: swiper-icons;
   font-size: var(--swiper-navigation-size);
   text-transform: none !important;
   letter-spacing: 0;
@@ -1073,22 +1064,6 @@ template {
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
-@font-face {
-  font-family: FontAwesome;
-  src: url(/wp-content/themes/alberts/public/fontawesome-webfont.eot);
-  src: url(/wp-content/themes/alberts/public/fontawesome-webfont.eot?#iefix&v=4.7.0)
-      format("embedded-opentype"),
-    url(/wp-content/themes/alberts/public/fontawesome-webfont.woff2)
-      format("woff2"),
-    url(/wp-content/themes/alberts/public/fontawesome-webfont.woff)
-      format("woff"),
-    url(/wp-content/themes/alberts/public/fontawesome-webfont.ttf)
-      format("truetype"),
-    url(/wp-content/themes/alberts/public/fontawesome-webfont.svg#fontawesomeregular)
-      format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
 
 .fa {
   display: inline-block;
@@ -4078,14 +4053,6 @@ template {
   content: "ï‹ ";
 }
 
-@font-face {
-  font-family: swiper-icons;
-  src: url("data:application/font-woff;charset=utf-8;base64, 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")
-    format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
 :root {
   --swiper-theme-color: #007aff;
 }
@@ -4469,10 +4436,6 @@ template {
   -webkit-user-select: none;
 }
 
-.foundation-mq {
-  font-family: "small=0em&medium=26.25em&large=40em&xlarge=64em&xxlarge=75em&xxxlarge=90em";
-}
-
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -4490,7 +4453,6 @@ body {
   margin: 0;
   padding: 0;
   background: #fff;
-  font-family: source-sans-pro, sans-serif, Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #676767;
@@ -8590,7 +8552,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: source-sans-pro, sans-serif, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   color: inherit;
@@ -8847,7 +8808,6 @@ figure {
 code {
   border: 1px solid #8a8a8a;
   background-color: #f8f8f8;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: 400;
   color: #000;
   display: inline;
@@ -8859,7 +8819,6 @@ code {
 .code-block {
   border: 1px solid #8a8a8a;
   background-color: #f8f8f8;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: 400;
   color: #000;
   display: block;
@@ -10351,7 +10310,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .acf-form .af-fields .acf-field.acf-error .acf-input-wrap:after {
   content: "\66";
-  font-family: alberts;
+
   position: absolute;
   top: 1.125rem;
   right: 1.125rem;
@@ -10389,7 +10348,7 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 /* @font-face {
-  font-family: alberts;
+  
   src: url(/wp-content/themes/alberts/public/alberts.eot);
   src: url(/wp-content/themes/alberts/public/alberts.eot?#iefix)
       format("embedded-opentype"),
@@ -10401,7 +10360,6 @@ html.is-reveal-open.zf-has-scroll {
 } */
 
 [data-icon]:before {
-  font-family: alberts !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: 400 !important;
@@ -10415,7 +10373,6 @@ html.is-reveal-open.zf-has-scroll {
 
 [class*=" icon-"]:before,
 [class^="icon-"]:before {
-  font-family: alberts !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-variant: normal !important;
@@ -10598,7 +10555,7 @@ html.is-reveal-open.zf-has-scroll {
 
   .cypress-menu .navigation-bar .citys-phones .sa-city button::before {
     content: "🌐";
-    font-family: alberts;
+
     position: relative;
     top: 2px;
     left: -5px;
@@ -10607,7 +10564,7 @@ html.is-reveal-open.zf-has-scroll {
 
   .cypress-menu .navigation-bar .citys-phones .sa-city button:after {
     content: "\2304";
-    font-family: alberts;
+
     position: relative;
     right: -5px;
     top: 1px;
@@ -10732,7 +10689,7 @@ html.is-reveal-open.zf-has-scroll {
     li.is-accordion-submenu-parent:not(.has-submenu-toggle)
     > a:after {
     content: "\2304" !important;
-    font-family: alberts !important;
+
     color: #1e2f56;
     border: none !important;
     font-size: 20px;
@@ -11047,7 +11004,6 @@ html.is-reveal-open.zf-has-scroll {
 
 @media screen and (max-width: 1224px) {
   .cypress-menu {
-    font-family: source-sans-pro, sans-serif, Helvetica, Arial, sans-serif;
     background-color: #fff;
     background-size: cover;
     background-position: center center;
@@ -11105,7 +11061,7 @@ html.is-reveal-open.zf-has-scroll {
 
   .cypress-menu .navigation-bar .citys-phones .sa-city button::before {
     content: "🌐";
-    font-family: alberts;
+
     position: relative;
     top: 2px;
     left: -2px;
@@ -11131,7 +11087,7 @@ html.is-reveal-open.zf-has-scroll {
     .city-number
     a.blue-link::before {
     content: "\6f";
-    font-family: alberts;
+
     position: relative;
     top: 2px;
     left: -6px;
@@ -11244,7 +11200,7 @@ html.is-reveal-open.zf-has-scroll {
 
   .cypress-menu .menu-links .citys-phones-small button.opt-city::before {
     content: "🌐";
-    font-family: alberts;
+
     position: relative;
     top: 2px;
     margin-right: 6px;
@@ -11252,7 +11208,7 @@ html.is-reveal-open.zf-has-scroll {
 
   .cypress-menu .menu-links .citys-phones-small button.opt-city:after {
     content: "\2304";
-    font-family: alberts;
+
     position: relative;
     right: -7px;
     top: 1px;
@@ -11402,7 +11358,7 @@ html.is-reveal-open.zf-has-scroll {
     .is-accordion-submenu-parent:not(.has-submenu-toggle)
     > a:after {
     content: "\2304" !important;
-    font-family: alberts !important;
+
     color: #1e2f56;
     border: none !important;
     font-size: 10px;
@@ -11965,7 +11921,7 @@ html.is-reveal-open.zf-has-scroll {
 
   .cypress-heroblock .green_circle::after {
     content: "\2192";
-    font-family: alberts !important;
+
     color: #fff;
     font-size: 1.5rem;
     -webkit-transform: rotate(90deg);
@@ -13261,7 +13217,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-accordionblock .row .question:after {
   content: "\2304";
-  font-family: alberts;
+
   position: absolute;
   top: 1.40625rem;
   right: 1.4375rem;
@@ -13343,7 +13299,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-accordionblock a#load-older-posts:after {
   content: "\72";
-  font-family: alberts;
+
   font-size: 0.8rem;
   margin: 0 0 0 0.5rem;
   -webkit-transition: 0.7s all;
@@ -13499,7 +13455,7 @@ html.is-reveal-open.zf-has-scroll {
   .cypress-accordionblock
   .question:after {
   content: "\2304";
-  font-family: alberts;
+
   position: absolute;
   top: 1.40625rem;
   right: 1.4375rem;
@@ -13886,7 +13842,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-linksblock .link-block a::after {
   content: "\2192";
-  font-family: alberts !important;
+
   font-weight: 400;
   color: #1e2f56;
   font-size: 1.25rem;
@@ -13962,7 +13918,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-quoteblock .quote::after {
   content: "\6c";
-  font-family: alberts !important;
+
   color: #ebf7ee;
   font-size: 5.563rem;
   position: absolute;
@@ -14024,7 +13980,6 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-quoteblock .swiper-container .swiper-button-next:after,
 .cypress-quoteblock .swiper-container .swiper-button-prev:after {
-  font-family: alberts;
   color: #1e2f56;
   font-size: 1.25rem;
 }
@@ -14533,7 +14488,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-serviceblock .services-grid .service .title:after {
   content: "\2192";
-  font-family: alberts;
+
   font-size: 1.125rem;
   line-height: 1.4;
   color: #34ac57;
@@ -14667,7 +14622,7 @@ html.is-reveal-open.zf-has-scroll {
   .af-field-integritetspolicy
   input[type="checkbox"]:checked:before {
   content: "\43";
-  font-family: alberts;
+
   color: #fff;
   position: absolute;
   top: 0;
@@ -14819,14 +14774,14 @@ html.is-reveal-open.zf-has-scroll {
   content: "\69";
   font-size: 1.25rem;
   line-height: 1;
-  font-family: alberts;
+
   vertical-align: middle;
   margin: 0 1rem 0 0;
 }
 
 .cypress-roll-up .trigger:after {
   content: "\2304";
-  font-family: alberts;
+
   vertical-align: middle;
   float: right;
 }
@@ -15523,7 +15478,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-notice .notice-content .notice_list li:before {
   content: "\2713";
-  font-family: alberts !important;
+
   color: #34ac57;
   font-size: 1.5rem;
   position: absolute;
@@ -15558,7 +15513,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-notice .notice_close::before {
   content: "\65";
-  font-family: alberts !important;
+
   color: #fff;
   font-size: 1rem;
   display: block;
@@ -15703,7 +15658,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-jobbblock .work-grid .work .more:after {
   content: "\2192";
-  font-family: alberts;
+
   font-size: 1.125rem;
   line-height: 1.4;
   color: #34ac57;
@@ -15862,7 +15817,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-newsblock .new-grid .new .more:after {
   content: "\2192";
-  font-family: alberts;
+
   font-size: 1.125rem;
   line-height: 1.4;
   color: #34ac57;
@@ -15922,7 +15877,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-campaignblock .btn.light::after {
   content: "\2192";
-  font-family: alberts;
+
   font-size: 1rem;
   line-height: 1.2;
   vertical-align: middle;
@@ -15992,7 +15947,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-textblock-article .text-list ul li:before {
   content: "\2713";
-  font-family: alberts !important;
+
   color: #34ac57;
   font-size: 1.5rem;
   position: absolute;
@@ -16055,7 +16010,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-quoteblock-article .quote::after {
   content: "\6c";
-  font-family: alberts !important;
+
   color: #ebf7ee;
   font-size: 5.563rem;
   position: absolute;
@@ -16117,7 +16072,6 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-quoteblock-article .swiper-container .swiper-button-next:after,
 .cypress-quoteblock-article .swiper-container .swiper-button-prev:after {
-  font-family: alberts;
   color: #1e2f56;
   font-size: 1.25rem;
 }
@@ -16322,7 +16276,7 @@ html.is-reveal-open.zf-has-scroll {
 .btn.blue.arrow::after,
 .btn.darkblue.arrow::after {
   content: "\2192";
-  font-family: alberts;
+
   font-size: 1rem;
   line-height: 1.2;
   vertical-align: middle;
@@ -16342,7 +16296,7 @@ html.is-reveal-open.zf-has-scroll {
 .btn.darkorange::after,
 .btn.orange::after {
   content: "\2192";
-  font-family: alberts;
+
   font-size: 1rem;
   line-height: 1.2;
   vertical-align: middle;
@@ -16398,7 +16352,7 @@ ul.checklist li strong {
 
 ul.checklist li:before {
   content: "\2713";
-  font-family: alberts !important;
+
   color: #34ac57;
   font-size: 1.5rem;
   position: absolute;
@@ -16509,7 +16463,6 @@ body.moove_gdpr_overflow {
 
 .gform_wrapper {
   margin: 1.5rem 0;
-  font-family: source-sans-pro, sans-serif, Helvetica, Arial, sans-serif;
 }
 
 .gform_wrapper .gsection {
@@ -16630,7 +16583,7 @@ body.moove_gdpr_overflow {
 
 .gform_wrapper .gfield_radio input:checked:before {
   content: "\2713";
-  font-family: alberts;
+
   font-size: 1.2rem;
   line-height: 1;
   color: #34ac57;
@@ -16672,7 +16625,7 @@ body.moove_gdpr_overflow {
 
 .gform_wrapper .gfield_error .ginput_container:after {
   content: "\66";
-  font-family: alberts;
+
   position: absolute;
   top: 1.125rem;
   right: 1.125rem;
@@ -16753,7 +16706,7 @@ body.moove_gdpr_overflow {
   .gf_step.gf_step_completed
   .gf_step_number:before {
   content: "\43";
-  font-family: alberts;
+
   font-weight: 400;
   padding: 0 0.35rem;
   color: #fff;
@@ -16769,7 +16722,6 @@ body.moove_gdpr_overflow {
   width: 37px;
   height: 37px;
   line-height: 37px;
-  font-family: source-sans-pro, sans-serif, Helvetica, Arial, sans-serif !important;
   font-size: 1.5rem !important;
   font-weight: 700;
   background: #999;
@@ -16794,7 +16746,6 @@ body.moove_gdpr_overflow {
 .gform_wrapper .gf_page_steps .gf_step_label {
   color: #999;
   font-size: 0.75rem !important;
-  font-family: source-sans-pro, sans-serif, Helvetica, Arial, sans-serif !important;
   font-weight: 400;
   display: block;
 }
@@ -16851,7 +16802,7 @@ body.moove_gdpr_overflow {
 
 .gform_wrapper .gform_page_footer .gform_previous_button:before {
   content: "\7a" !important;
-  font-family: alberts !important;
+
   font-size: 0.7rem !important;
   margin: 0 0.25rem 0 0 !important;
 }
@@ -17206,7 +17157,7 @@ body .gform_wrapper #field_1_28 {
 
 .cypress-large-offerform .af-field .acf-field.acf-error .acf-input-wrap:after {
   content: "\66";
-  font-family: alberts;
+
   position: absolute;
   top: 1.125rem;
   right: 1.125rem;
@@ -17590,7 +17541,7 @@ body .gform_wrapper #field_1_28 {
   label
   input:before {
   content: "\2713";
-  font-family: alberts;
+
   font-size: 1.2rem;
   line-height: 1;
   color: #34ac57;
@@ -17934,7 +17885,7 @@ body .gform_wrapper #field_1_28 {
   .acf-fields
   .acf-input-wrap.valid:before {
   content: "\2713";
-  font-family: alberts;
+
   font-size: 1.2rem;
   color: #34ac57;
   position: absolute;
@@ -17973,7 +17924,7 @@ body .gform_wrapper #field_1_28 {
   .acf-fields
   .acf-input-wrap.invalid:before {
   content: "\2713";
-  font-family: alberts;
+
   font-size: 1.2rem;
   color: #e02020;
   position: absolute;
@@ -18104,7 +18055,7 @@ body .gform_wrapper #field_1_28 {
   .acf-input
   input[type="checkbox"]:checked:before {
   content: "\2713";
-  font-family: alberts;
+
   color: #fff;
   position: absolute;
   top: 0;
@@ -18283,7 +18234,7 @@ body .gform_wrapper #field_1_28 {
   .acf-radio-list
   input:checked:before {
   content: "\2713";
-  font-family: alberts;
+
   color: #34ac57;
   font-size: 1.6rem;
   font-weight: 400;
@@ -18471,7 +18422,7 @@ body .gform_wrapper #field_1_28 {
   .acf-input
   input[type="checkbox"]:checked:before {
   content: "\43";
-  font-family: alberts;
+
   color: #fff;
   position: absolute;
   top: 0;
@@ -18643,7 +18594,7 @@ body .gform_wrapper #field_1_28 {
 
 .cypress-large-offerform .af-submit .af-next-button:after {
   content: "\27F6";
-  font-family: alberts;
+
   font-size: 1rem;
   vertical-align: middle;
   margin-left: 1rem;
@@ -18664,7 +18615,7 @@ body .gform_wrapper #field_1_28 {
 
 .cypress-large-offerform .af-submit .af-previous-button:before {
   content: "\7a";
-  font-family: alberts;
+
   font-size: 0.7rem;
   margin: 0 0.25rem 0 0;
 }
@@ -18898,7 +18849,7 @@ body .gform_wrapper #field_1_28 {
 
 .offer_form_generated_city .inner:before {
   content: "🌐";
-  font-family: alberts;
+
   vertical-align: middle;
   font-size: 1.2rem;
   margin: 0 0.35rem 0 0;
@@ -19138,7 +19089,7 @@ body .gform_wrapper #field_1_28 {
 
 .cypress-article-single .lastest-post .news-post .more:after {
   content: "\2192";
-  font-family: alberts;
+
   font-size: 1.125rem;
   line-height: 1.4;
   color: #34ac57;
@@ -19216,7 +19167,7 @@ body .gform_wrapper #field_1_28 {
 
 .cypress-new-single .cypress-textblock-new ul li:before {
   content: "\2713";
-  font-family: alberts !important;
+
   color: #34ac57;
   font-size: 1.5rem;
   position: absolute;
@@ -19412,7 +19363,7 @@ body .gform_wrapper #field_1_28 {
 
 .cypress-article-archive .lastest-post .news-post .more:after {
   content: "\2192";
-  font-family: alberts;
+
   font-size: 1.125rem;
   line-height: 1.4;
   color: #34ac57;
