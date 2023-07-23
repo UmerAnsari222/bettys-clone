@@ -1,0 +1,17 @@
+<svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 761" style="enable-background:new 0 0 1920 761;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#EBF7EE;}
+</style>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M0,26.12C87.2,6.86,245.2,1.57,474,10.23c166.38,6.3,504,27.44,768,37.54c264,10.11,568.57,5.95,678,0
+			c0,32.73,0,270.47,0,713.22H0V26.12z"/>
+	</defs>
+	<use xlink:href="#SVGID_1_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:#EBF7EE;"/>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect x="-6" y="0.2" class="st0" width="1932" height="766.8"/>
+</g>
+</svg>
