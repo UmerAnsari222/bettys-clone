@@ -28,6 +28,10 @@ a {
   background-color: transparent;
 }
 
+li {
+  list-style: none;
+}
+
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -10426,7 +10430,7 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 .icon-phone:before {
-  content: "\260E";
+  content: "📞";
 }
 
 .icon-map:before {
@@ -11076,7 +11080,7 @@ html.is-reveal-open.zf-has-scroll {
     .sa-city
     .city-number
     a.blue-link::before {
-    content: "\260E";
+    content: "📞";
 
     position: relative;
     top: 2px;
@@ -14420,9 +14424,12 @@ html.is-reveal-open.zf-has-scroll {
   }
 }
 
-@media print, screen and (min-width: 40em) {
+@media print, screen and (max-width: 1000px) {
   .cypress-serviceblock .services-grid .service {
     margin-bottom: 1.5rem;
+  }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 
