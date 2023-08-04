@@ -14574,6 +14574,7 @@ html.is-reveal-open.zf-has-scroll {
 
 .cypress-contactblock .contact-form .af-field .af-input input,
 .cypress-contactblock .contact-form .af-field .af-input textarea {
+  width: 100%;
   font-size: 1.125rem;
   color: #8a8a8a;
   border: solid 1px #c1c1c1;
