@@ -9982,7 +9982,7 @@ input:checked + label > .switch-inactive {
 
 @media screen and (min-width: 1224px) {
   .cypress-content {
-    margin-top: 0;
+    margin-top: 120px;
   }
 
   .cypress-content.mt-60 {
@@ -10246,6 +10246,34 @@ html.is-reveal-open.zf-has-scroll {
   margin: 1.5rem 0;
 }
 
+#af-input-boka {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 5px;
+}
+
+.cypress-large-offerform
+  .acf-field[data-name="integritetspolicy"]
+  .acf-input
+  input {
+  padding: 0.55rem;
+  margin: 0 0.25rem 0 0;
+  border: solid 1px #c1c1c1;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  vertical-align: middle;
+}
+
+#af-input-boka > div {
+  width: 100%;
+}
+
+#af-input-boka div:last-child {
+  width: 100%;
+}
+
 .acf-form .acf-fields .acf-field input,
 .acf-form .acf-fields .acf-field textarea {
   -webkit-appearance: none;
@@ -10356,17 +10384,6 @@ html.is-reveal-open.zf-has-scroll {
 
 .breadcrumb-wrap a {
   padding: 0 0.25rem;
-}
-
-@font-face {
-  src: url(/wp-content/themes/alberts/public/alberts.eot);
-  src: url(/wp-content/themes/alberts/public/alberts.eot?#iefix)
-      format("embedded-opentype"),
-    url(/wp-content/themes/alberts/public/alberts.woff) format("woff"),
-    url(/wp-content/themes/alberts/public/alberts.ttf) format("truetype"),
-    url(/wp-content/themes/alberts/public/alberts.svg#alberts) format("svg");
-  font-weight: 400;
-  font-style: normal;
 }
 
 [data-icon]:before {
@@ -16898,6 +16915,7 @@ body .gform_wrapper #field_1_28 {
 
 .cypress-large-offerform .acf-form .af-field input,
 .cypress-large-offerform .acf-form .af-field textarea {
+  width: 100%;
   -webkit-appearance: none;
   -moz-appearance: none;
   margin-bottom: 2px;
@@ -18913,6 +18931,10 @@ body .gform_wrapper #field_1_28 {
     .cypress-content {
     margin-top: 120px;
   }
+
+  #af-input-boka > div {
+    width: 49.5%;
+  }
 }
 
 .cypress-article-single .cypress-heroblock {
@@ -19389,4 +19411,26 @@ body .gform_wrapper #field_1_28 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#acf-field_5f71e8ce4fb01 ,#acf-field_5f3f6e8d52b88{
+  position: relative;
+  padding: 0.55rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  vertical-align: middle;
+}
+
+#acf-field_5f71e8ce4fb01:checked:before {
+  content: "\2713";
+  font-family: alberts;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.1rem;
+  line-height: 1;
+  font-weight: 300 !important;
+  width: 100%;
+  background-color: #34ac57;
 }

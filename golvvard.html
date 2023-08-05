@@ -7,7 +7,6 @@
 
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/classic.css" />
-    <!-- <link rel="stylesheet" href="./style/app.css" /> -->
   </head>
   <body>
     <main class="cypress-wrapper" id="cypress-wrapper">
@@ -308,7 +307,7 @@
                           <ul
                             class="child-container menu-item-container submenu is-accordion-submenu"
                             style="display: none"
-                            data-submenu-om-städhemsida=""
+                            data-submenu-om-städhemsida
                             role="group"
                             aria-labelledby="76qssl-acc-menu-link"
                             aria-hidden="true"
@@ -791,19 +790,21 @@
         <section class="cypress-heroblock">
           <div class="grid-container">
             <div class="grid-x grid-margin-x align-center">
-              <span class="background lightorange"></span>
+              <span class="background lightblue"></span>
 
               <div class="breadcrumb-wrap show-for-xxxlarge">
                 <div class="grid-container">
                   <nav id="breadcrumbs" class="breadcrumbs">
                     <span
                       ><span
-                        ><a href="#">Hem</a> /
+                        ><a href="https://www.bettysstad.se/foretag/">Hem</a> /
                         <span
-                          ><a href="./om-städhemsida.html">Om Bettys</a>
+                          ><a href="https://www.bettysstad.se/foretag/tjanster/"
+                            >Tjänster</a
+                          >
                           /
                           <span class="breadcrumb_last" aria-current="page"
-                            >Jobba hos oss</span
+                            >Golvvård</span
                           ></span
                         ></span
                       ></span
@@ -814,22 +815,66 @@
 
               <div class="caption cell large-10 xlarge-6">
                 <div class="inner">
-                  <h1>Vill du bli vår nya kollega?</h1>
+                  <p class="big">Behöver era golv fräschas upp?</p>
                   <p>
-                    Att arbeta på städhemsida är ett både roligt och engagerande
-                    arbete. Här nedan kan du läsa lite mer om vad det innebär.
-                    Välkommen att höra av dig till oss om du vill veta mer om
-                    hur det är att arbeta hos oss!
+                    Välj noggrann, kvalitetssäkrad golvvård från vårt erfarna
+                    golv-team. Vi behandlar och rengör alla typer av golv,
+                    kontakta oss för kostnadsfri offert!
                   </p>
+                  <form class="cypress-offerform" method="post">
+                    <div class="form-field-wrap">
+                      <div class="form-field">
+                        <input
+                          type="text"
+                          name="company_name"
+                          placeholder="Företagsnamn"
+                        />
+                      </div>
+                      <div class="form-field noline">
+                        <input
+                          name="person_name"
+                          type="text"
+                          placeholder="Namn"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-submit">
+                      <a
+                        href="./boka-mote.html"
+                        class="blue submit-button btn offer-btn boka_mote"
+                      >
+                        Boka möte
+                      </a>
+                    </div>
+                  </form>
                 </div>
+
+                <ul class="usps">
+                  <li>
+                    <span class="icon-icon-check-filled"></span
+                    ><span class="usp-text">Nöjd kund-garanti</span>
+                  </li>
+                  <li>
+                    <span class="icon-icon-check-filled"></span
+                    ><span class="usp-text">Personlig service</span>
+                  </li>
+                  <li>
+                    <span class="icon-icon-check-filled"></span
+                    ><span class="usp-text">Professionell golvvård</span>
+                  </li>
+                </ul>
               </div>
 
               <div class="media cell large-10 xlarge-6">
                 <div>
                   <img
-                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/jobba-hos-oss.jpg"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/08/bettys_stadservice_golvvard_slipning_polering_01_1000x877.jpg"
                     class="image"
                   />
+                </div>
+
+                <div class="circle darkorange show">
+                  <p class="inner">För stora och små företag!</p>
                 </div>
               </div>
             </div>
@@ -837,177 +882,722 @@
           <div class="green_circle show"></div>
         </section>
 
-        <section
-          class="cypress-textblock no-numbers aos-init text-left"
-          data-aos="fade-up"
-          data-aos-delay="100"
-          data-aos-duration="1000"
-        >
+        <section class="cypress-accordionblock bg lightblue">
           <div class="grid-container">
-            <div class="grid-x grid-margin-x align-center align tx-blocks">
-              <div class="cell medium-12 large-10 xlarge-6 four-blocks">
-                <h3>Ett fritt och roligt arbete!</h3>
-                <p>
-                  På Bettys&nbsp;ser vi till att du får rätt förutsättningar för
-                  att utvecklas och trivas. Vi låter dig utvecklas både i din
-                  yrkeskunskap och vidare i din yrkesroll. Och även om vi
-                  arbetar mycket på egen hand hos våra kunder, har vi en stark
-                  gemenskap.
-                </p>
-                <p>
-                  I ditt arbete hos oss möter du ofta kunder och har mycket
-                  kontakt med människor. Därför är det en fördel om du har
-                  erfarenhet av ett serviceyrke och helst av städning i hemmiljö
-                  eller kontor. Du får gärna ha körkort, men det är inget krav.
-                  Som person är du ansvarsfull, flexibel och – viktigt – har
-                  känsla för de små detaljerna.
-                </p>
-                <h3>Schyssta arbetsvillkor</h3>
-                <p>
-                  städhemsida står upp för schyssta arbetsvillkor för städare
-                  och anställda. Leverantörers anställda är våra representanter
-                  när de städar på uppdrag av städhemsida och ska ha lika goda
-                  arbetsvillkor, vilket vi tar ansvar för.
-                </p>
-                <p>&nbsp;</p>
+            <div class="grid-x grid-margin-x align-center">
+              <div class="accordion cell medium-12 xlarge-10 xxlarge-7">
+                <h2 class="title">Bra att känna till om vår golvvård:</h2>
+                <div class="group">
+                  <div class="row">
+                    <p class="question">
+                      Vilka golvtyper kan vi behandla och rengöra?
+                    </p>
+                    <div class="answer">
+                      <p>
+                        Vi utför golvvård på alla typer av golv. Det finns dock
+                        många olika typer av golv och man måste kunna skilja dem
+                        åt för att få ett bra utfört arbete som passar just för
+                        era golv. Vi rengör:
+                      </p>
+                      <ul>
+                        <li>textila golv</li>
+                        <li>trägolv och parkett</li>
+                        <li>linoleumgolv</li>
+                        <li>plastgolv</li>
+                        <li>vinylgolv</li>
+                        <li>stengolv</li>
+                        <li>klinker</li>
+                        <li>betonggolv</li>
+                        <li>gummigolv</li>
+                        <li>epoxy-golv</li>
+                      </ul>
+                      <p>&nbsp;</p>
+                      <p>
+                        Förutom städning kan vi behandla golvet så att den
+                        dagliga smutsen inte kan tränga ner i golvets porer.
+                        Kontakta oss så berättar vi mer om hur vår golvvård
+                        fungerar.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Vad kostar golvvård?</p>
+                    <div class="answer">
+                      <ul>
+                        <li>
+                          Hur mycket tid som krävs för att utföra golvvården
+                          beror på hur stort golvet är, hur det är utformat,
+                          vilket skick det är i samt vilket material det gäller.
+                        </li>
+                        <li>
+                          Vi levererar alltid golvvård av hög kvalitet, vilket
+                          för oss innebär att göra individuella bedömningar för
+                          att hitta den mest kostnadseffektiva och bästa
+                          lösningen för dig som kund. Denna tjänst offereras
+                          därför.
+                        </li>
+                        <li>
+                          För kostnadsfri offert, fyll i formuläret på sidan
+                          eller kontakta kundtjänst så bokar vi in en första
+                          personlig genomgång på plats hos er. Varmt välkommen
+                          till oss på Bettys!
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Alltid egen kontaktperson</p>
+                    <div class="answer">
+                      <ul>
+                        <li>
+                          För att ni snabbt och enkelt ska kunna nå oss när det
+                          behövs får ni alltid en personlig kontaktperson hos
+                          oss. Er kontaktperson hjälper er med alltifrån
+                          fakturafrågor till ändringar i golvvården som vi
+                          utför. Ni kan också kontakta er kontaktperson om något
+                          akut uppstår som ni behöver hjälp med, eller om ni har
+                          synpunkter eller frågor kring vår service.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-certifiedblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div
+                class="logobox cell small-6 large-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                <div class="logo-wrap">
+                  <img
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/08/6000_bettys.svg"
+                    alt="logo"
+                  />
+                </div>
+                <p class="title">Stort antal uppdrag</p>
               </div>
 
               <div
-                class="cell medium-12 large-10 xlarge-6 four-blocks has-background lightblue"
+                class="logobox cell small-6 large-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
               >
-                <h4>
-                  Dina vanligaste arbetsuppgifter som städpersonal hos oss är:
-                </h4>
-                <ul class="checklist">
-                  <li>Städning av privata hem, oftast vardagar 8-17.</li>
-                  <li>
-                    Städning av kontor och affärslokaler, tiderna kan variera.
-                  </li>
-                  <li>Strykning kan förekomma.</li>
-                  <li>Du utför oftast uppdragen på egen hand.</li>
-                </ul>
+                <div class="logo-wrap">
+                  <img
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/alberts-stadservice-iso-symbol.png"
+                    alt="logo"
+                  />
+                </div>
+                <p class="title">Ledningssystem kvalité och miljö</p>
               </div>
             </div>
           </div>
         </section>
 
         <section
-          class="cypress-textblock no-numbers aos-init text-left"
+          class="cypress-textblock no-numbers aos-init"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="grid-container narrow">
+            <div class="grid-x grid-margin-x align-center tx-blocks">
+              <div class="cell medium-12 large-10">
+                <h1 style="text-align: center">Professionell golvvård</h1>
+                <p style="text-align: center">
+                  Golvvård är inte bara ett sätt att hålla företagets golv
+                  snygga och funktionella – ett golv som underhålls är också
+                  trevligare och lättare att städa. Med periodisk golvvård
+                  förlängs dessutom livet på golvet så att det inte behöver
+                  bytas ut i förtid.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-mediablock standard lightblue">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center flex toright">
+              <div
+                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 large-offset-0 xlarge-offset-1 aos-init"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <div class="textfield">
+                  <h3>Hur fungerar vår golvvård?</h3>
+                  <p>
+                    Vi har expertis inom alla typer av golv: stengolv, linoleum,
+                    trägolv och betong. Vi väljer därför noggrant den metod som
+                    är bäst för varje golvtyp. Med rätt utrustning och expertis
+                    kan vi dessutom många gånger rädda ett slitet golv, så att
+                    du slipper de stora kostnader som det innebär att byta golv.
+                    Läs mer om våra olika typer av golvvård:
+                  </p>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.bettysstad.se/foretag/tjanster/golvvard/linoleumgolv/"
+                        >Linoleumgolv</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.bettysstad.se/foretag/tjanster/golvvard/mattvatt/"
+                        >Mattvätt</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.bettysstad.se/foretag/tjanster/golvvard/stengolv-betonggolv/"
+                        >Sten- och betonggolv</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 aos-init"
+                data-aos="fade-right"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/08/bettys_stadservice_golvvard_slipning_polering_02.jpg"
+                  class="image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="cypress-textblock numbers aos-init"
           data-aos="fade-up"
           data-aos-delay="100"
           data-aos-duration="1000"
         >
           <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div class="abstract cell medium-12 large-10 xlarge-8">
+                <h2 style="text-align: center">Så bokar du golvvård</h2>
+              </div>
+            </div>
+
+            <div class="grid-x grid-margin-x align-center tx-blocks">
+              <div
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
+              >
+                <span class="col-number">1</span>
+                <p style="text-align: center">
+                  Kontakta oss via hemsidan eller ring oss för att boka ett
+                  besök i era lokaler
+                </p>
+              </div>
+
+              <div
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
+              >
+                <span class="col-number">2</span>
+                <p style="text-align: center">
+                  Vi besöker dig och tar därefter fram en kostnadsfri offert
+                </p>
+              </div>
+
+              <div
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
+              >
+                <span class="col-number">3</span>
+                <p style="text-align: center">
+                  När du godkänt offerten genomför vi golvvården enligt era
+                  önskemål
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="cypress-textblock numbers aos-init"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="grid-container narrow">
             <div class="grid-x grid-margin-x align-center tx-blocks">
               <div class="cell medium-12 large-10 has-background lightblue">
-                <h2 style="text-align: center">Låter det intressant?</h2>
-                <p style="text-align: center">
-                  Då är du välkommen att skicka din ansökan till&nbsp;<a
-                    href="mailto:jobb@bettysstad.se"
-                    ><strong>jobb@bettysstad.se</strong></a
-                  >
+                <h3>Vem vänder sig tjänsten till?</h3>
+                <p>
+                  Vår professionella golvvård vänder sig till alla typer av
+                  verksamheter – där det finns ett golv behövs golvvård! Bland
+                  våra kunder finns alltifrån små och stora företag till
+                  industrier, restauranger, fastighetsägare och
+                  idrottsanläggningar. Prata med oss, så hjälper vi till!
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section class="cypress-jobbblock">
-          <span class="bg"></span>
+
+        <section class="cypress-mediablock wave darkblue">
           <div class="grid-container">
-            <div class="intro grid-x grid-margin-x align-center">
-              <div class="cell medium-12 large-10">
-                <h2>Möt våra medarbetare</h2>
+            <div class="grid-x grid-margin-x align-center flex toleft">
+              <div
+                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 aos-init"
+                data-aos="fade-right"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <div class="textfield">
+                  <h2>Kan vi hjälpa till?</h2>
+                  <p>
+                    Vill du veta mer om våra städtjänster eller få en
+                    kostnadsfri offert? Tveka inte på att kontakta oss för ett
+                    förutsättningslöst möte!
+                  </p>
+                  <ul class="checklist">
+                    <li><strong>Kvalitetsgaranti</strong></li>
+                    <li><strong>Egen kontaktperson</strong></li>
+                    <li><strong>Lågt, fast pris</strong></li>
+                  </ul>
+                  <form class="cypress-offerform" method="post">
+                    <div class="form-field-wrap">
+                      <div class="form-field">
+                        <input
+                          type="text"
+                          name="company_name"
+                          placeholder="Företagsnamn"
+                        />
+                      </div>
+                      <div class="form-field noline">
+                        <input
+                          name="person_name"
+                          type="text"
+                          placeholder="Namn"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-submit">
+                      <button
+                        type="submit"
+                        class="green submit-button btn offer-btn boka_mote"
+                      >
+                        Boka möte
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div
+                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 large-offset-0 xlarge-offset-1 aos-init"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/08/bettys_stadservice_golvvard_slipning_polering_01_1000x877.jpg"
+                  class="image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-officeblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div
+                class="abstract cell medium-12 large-10 aos-init"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
+                <h2 style="text-align: center">
+                  Tveka inte på att kontakta oss om du har frågor!
+                </h2>
+                <p style="text-align: center">
+                  Kontakta vårt golvvårdsteam för en kostnadsfri offert genom
+                  att lämna dina uppgifter här på hemsidan, eller ring till vår
+                  kundservice så hjälper vi till. Varmt välkommen till oss på
+                  Bettys!
+                </p>
               </div>
             </div>
 
-            <div id="work-" class="work-grid grid-x grid-margin-x">
+            <div
+              class="office-wrap grid-x grid-margin-x align-center aos-init"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              <div class="office cell medium-12 large-8 xlarge-5 xxlarge-4">
+                <h3 class="city">Kundtjänst Göteborg</h3>
+                <a href="tel:031-23 75 00" class="phone">031-23 75 00</a>
+                <a href="mailto:info@bettysstad.se" class="mail"
+                  >info@bettysstad.se</a
+                >
+              </div>
+              <div class="office cell medium-12 large-8 xlarge-5 xxlarge-4">
+                <h3 class="city">Kundtjänst Stockholm</h3>
+                <a href="tel:08-39 00 65" class="phone">08-39 00 65</a>
+                <a href="mailto:info@bettysstad.se" class="mail"
+                  >info@bettysstad.se</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cypress-serviceblock">
+          <span class="bg"></span>
+
+          <div class="grid-container">
+            <div class="intro grid-x grid-margin-x">
+              <div class="cell small-6 large-8">
+                <h2>Våra andra tjänster</h2>
+              </div>
+            </div>
+
+            <div
+              id="page-1"
+              class="services-grid grid-x grid-margin-x"
+              style=""
+            >
               <div
-                class="work cell small-12 large-4 xlarge-4 aos-init"
+                class="service cell small-6 xlarge-3 aos-init"
                 data-aos="fade-up"
                 data-aos-delay="50"
                 data-aos-duration="1000"
               >
-                <a href="#" class="link">
-                  <div
-                    style="
-                      background-image: url('https://www.bettysstad.se/wp-content/uploads/2022/08/bettys_stadservice_monika.jpg');
-                      height: 292px;
-                      background-position: center;
-                      background-size: cover;
-                      background-repeat: no-repeat;
+                <a href="./kontorsstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/kontorsstadning-hero-768x674.jpg  768w
                     "
-                  ></div>
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
 
                   <div class="inner">
-                    <h4 class="title">Möt vår medarbetare Monika</h4>
-                    <p>
-                      Det allra bästa är att jobbet är så socialt, varierande
-                      och fartfyllt, det ...
-                    </p>
-                    <span class="more">Läs mer</span>
+                    <h4 class="title">Kontorsstädning</h4>
                   </div>
                 </a>
               </div>
 
               <div
-                class="work cell small-12 large-4 xlarge-4 aos-init"
+                class="service cell small-6 xlarge-3 aos-init"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <a href="#" class="link">
-                  <div
-                    style="
-                      background-image: url('https://www.bettysstad.se/wp-content/uploads/2022/06/jolanta_1024x826-1-1.jpg');
-                      height: 292px;
-                      background-position: center;
-                      background-size: cover;
-                      background-repeat: no-repeat;
+                <a href="./industristadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/industristadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/industristadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/industristadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/industristadning-hero-768x674.jpg  768w
                     "
-                  ></div>
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
 
                   <div class="inner">
-                    <h4 class="title">Möt vår medarbetare Jolanta</h4>
-                    <p>
-                      Det bästa med mitt jobb är självständigheten. Jag älskar
-                      frihet under ansva...
-                    </p>
-                    <span class="more">Läs mer</span>
+                    <h4 class="title">Industristädning</h4>
                   </div>
                 </a>
               </div>
 
               <div
-                class="work cell small-12 large-4 xlarge-4 aos-init"
+                class="service cell small-6 xlarge-3 aos-init"
                 data-aos="fade-up"
                 data-aos-delay="150"
                 data-aos-duration="1000"
               >
-                <a href="#" class="link">
-                  <div
-                    style="
-                      background-image: url('https://www.bettysstad.se/wp-content/uploads/2022/06/agata_1024x826-1.jpg');
-                      height: 292px;
-                      background-position: center;
-                      background-size: cover;
-                      background-repeat: no-repeat;
+                <a href="./entremattor.html" class="link">
+                  <img
+                    width="1104"
+                    height="844"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_entremattor_01.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt="Berendsen part of Elis"
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_entremattor_01.jpg          1104w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_entremattor_01-600x459.jpg   600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_entremattor_01-1024x783.jpg 1024w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_entremattor_01-552x422.jpg   552w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_entremattor_01-768x587.jpg   768w
                     "
-                  ></div>
+                    sizes="(max-width: 1104px) 100vw, 1104px"
+                  />
 
                   <div class="inner">
-                    <h4 class="title">Möt vår medarbetare Agata</h4>
-                    <p>
-                      Det bästa med mitt jobb är flexibiliteten, det är
-                      jätteviktigt för mig, säg...
-                    </p>
-                    <span class="more">Läs mer</span>
+                    <h4 class="title">Entrémattor</h4>
                   </div>
                 </a>
               </div>
-            </div>
 
-            <div class="btn-wrapper">
-              <a class="blue btn arrow" href="#">Möt fler medarbetare</a>
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <a href="./butiksstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/butiksstadning-mid.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/butiksstadning-mid.jpg         1000w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/butiksstadning-mid-600x526.jpg  600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/butiksstadning-mid-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Butiksstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <a href="./skolstadning.html" class="link">
+                  <img
+                    width="1104"
+                    height="844"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_skola_01_b.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_skola_01_b.jpg          1104w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_skola_01_b-600x459.jpg   600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_skola_01_b-1024x783.jpg 1024w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_skola_01_b-552x422.jpg   552w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2020/09/button_skola_01_b-768x587.jpg   768w
+                    "
+                    sizes="(max-width: 1104px) 100vw, 1104px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Skola och förskola</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
+                <a href="./stadning-gym-traningslokaler.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/gymstadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/gymstadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/gymstadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/gymstadning-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Gym och träningslokaler</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="350"
+                data-aos-duration="1000"
+              >
+                <a href="./flyttstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1.jpg         1000w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1-600x526.jpg  600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/flyttstadning-hero-1-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Flyttstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+              >
+                <a href="./byggstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/byggstadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/byggstadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/byggstadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/byggstadning-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Byggstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="450"
+                data-aos-duration="1000"
+              >
+                <a href="./trappstadning.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/trappstadning-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/trappstadning-hero.jpg         1000w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/trappstadning-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/trappstadning-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Trappstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+              >
+                <a href="./fonsterputs.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/fonsterputs-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/fonsterputs-hero.jpg         1000w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/fonsterputs-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/fonsterputs-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Fönsterputs</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="550"
+                data-aos-duration="1000"
+              >
+                <a href="./lokalvard.html" class="link">
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/lokalvard-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/lokalvard-hero.jpg         1000w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/lokalvard-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/foretag/wp-content/uploads/sites/2/2023/05/lokalvard-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Lokalvård</h4>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -1065,6 +1655,7 @@
                       servicekontor i Stockholm, men vi utför vår städhjälp på
                       många orter i Sverige.
                     </p>
+
                     <ul class="ft-info-sm">
                       <li>
                         <a href="#">

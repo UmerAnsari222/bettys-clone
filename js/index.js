@@ -83,7 +83,7 @@ if (trigger) {
 const switch1 = document.getElementById("switch-1");
 const switch2 = document.getElementById("switch-2");
 
-switch1.addEventListener("click", () => {
+switch1?.addEventListener("click", () => {
   document.querySelector(".switch-bar").classList.remove("toright");
   document.querySelector(".switch-bar").classList.add("toleft");
   switch2.classList.remove("active");
@@ -93,7 +93,7 @@ switch1.addEventListener("click", () => {
   document.getElementById("page-1").style.display = "grid";
 });
 
-switch2.addEventListener("click", () => {
+switch2?.addEventListener("click", () => {
   document.querySelector(".switch-bar").classList.remove("toleft");
   document.querySelector(".switch-bar").classList.add("toright");
   switch1.classList.remove("active");
