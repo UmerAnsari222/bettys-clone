@@ -14927,7 +14927,7 @@ html.is-reveal-open.zf-has-scroll {
   order: 4;
 }
 
-.cypress-footer .footer-inner .ft-box.ft-two .logos-company {
+.cypress-footer .footer-inner .ft-box.ft-two .logos-Företag {
   list-style: none;
   display: -webkit-box;
   display: -webkit-flex;
@@ -14943,7 +14943,7 @@ html.is-reveal-open.zf-has-scroll {
 .cypress-footer
   .footer-inner
   .ft-box.ft-two
-  .logos-company
+  .logos-Företag
   li:not(:last-child) {
   margin-right: 1.375rem;
 }
@@ -14951,7 +14951,7 @@ html.is-reveal-open.zf-has-scroll {
 .cypress-footer
   .footer-inner
   .ft-box.ft-two
-  .logos-company
+  .logos-Företag
   li:nth-child(3)
   .logo-com {
   display: -webkit-box;
@@ -14969,7 +14969,7 @@ html.is-reveal-open.zf-has-scroll {
   height: 100%;
 }
 
-.cypress-footer .footer-inner .ft-box.ft-two .logos-company li .logo-com {
+.cypress-footer .footer-inner .ft-box.ft-two .logos-Företag li .logo-com {
   display: block;
   width: 77px;
 }
@@ -14983,7 +14983,7 @@ html.is-reveal-open.zf-has-scroll {
     width: 50%;
   }
 
-  .cypress-footer .footer-inner .ft-box.ft-two .logos-company {
+  .cypress-footer .footer-inner .ft-box.ft-two .logos-Företag {
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
@@ -14994,7 +14994,7 @@ html.is-reveal-open.zf-has-scroll {
 .cypress-footer
   .footer-inner
   .ft-box.ft-two.ft-two-mob
-  .logos-company
+  .logos-Företag
   .logo-com {
   width: 56px;
 }
@@ -16386,7 +16386,7 @@ ul.checklist li:before {
 #moove_gdpr_cookie_modal
   .moove-gdpr-modal-content
   .moove-gdpr-modal-left-content
-  .moove-gdpr-company-logo-holder {
+  .moove-gdpr-Företag-logo-holder {
   margin-bottom: 60px;
 }
 
@@ -19148,6 +19148,8 @@ body .gform_wrapper #field_1_28 {
 @media print, screen and (min-width: 40em) {
   .cypress-new-single .cypress-textblock-new h1 {
     margin-bottom: 30px;
+    /* padding: 0 10px; */
+    font-family: "Source Sans 3", sans-serif;
   }
 }
 
@@ -19413,7 +19415,8 @@ body .gform_wrapper #field_1_28 {
   justify-content: center;
 }
 
-#acf-field_5f71e8ce4fb01 ,#acf-field_5f3f6e8d52b88{
+#acf-field_5f71e8ce4fb01,
+#acf-field_5f3f6e8d52b88 {
   position: relative;
   padding: 0.55rem;
   -webkit-appearance: none;
