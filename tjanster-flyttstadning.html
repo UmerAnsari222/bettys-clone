@@ -7,7 +7,9 @@
 
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/classic.css" />
+    <!-- <link rel="stylesheet" href="./style/app.css" /> -->
   </head>
+
   <body>
     <main class="cypress-wrapper" id="cypress-wrapper">
       <section id="cypress-menu-sticky" class="cypress-menu bottom">
@@ -305,7 +307,7 @@
                           <ul
                             class="child-container menu-item-container submenu is-accordion-submenu"
                             style="display: none"
-                            data-submenu-om-städhemsida
+                            data-submenu-om-städhemsida=""
                             role="group"
                             aria-labelledby="76qssl-acc-menu-link"
                             aria-hidden="true"
@@ -791,365 +793,653 @@
       </section>
 
       <div class="cypress-content mt-60">
-        <div class="cypress-article-single">
-          <div class="single-posts">
-            <div class="cypress-heroblock">
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x align-center">
-                  <span class="background"></span>
+        <section class="cypress-heroblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <span class="background lightblue"></span>
 
-                  <div class="breadcrumb-wrap show-for-xxxlarge">
-                    <div class="grid-container">
-                      <nav id="breadcrumbs" class="breadcrumbs">
+              <div class="breadcrumb-wrap show-for-xxxlarge">
+                <div class="grid-container">
+                  <nav id="breadcrumbs" class="breadcrumbs">
+                    <span
+                      ><span
+                        ><a href="https://www.bettysstad.se/">Hem</a> /
                         <span
-                          ><span
-                            ><a href="https://www.bettysstad.se/">Hem</a> /
-                            <span
-                              ><a href="https://www.bettysstad.se/artiklar/"
-                                >Artiklar</a
-                              >
-                              /
-                              <span class="breadcrumb_last" aria-current="page"
-                                >Möt vår medarbetare Alexandra</span
-                              ></span
-                            ></span
+                          ><a href="https://www.bettysstad.se/tjanster/"
+                            >Tjänster</a
+                          >
+                          /
+                          <span class="breadcrumb_last" aria-current="page"
+                            >Flyttstädning</span
                           ></span
-                        >
-                      </nav>
-                    </div>
-                  </div>
+                        ></span
+                      ></span
+                    >
+                  </nav>
+                </div>
+              </div>
 
-                  <div class="caption cell large-6 xlarge-7">
-                    <div class="inner">
-                      <h1 class="title">Möt vår medarbetare Alexandra</h1>
-                      <p class="desc">
-                        För mig är det jätteviktigt att kunderna känner sig
-                        nöjda med städningen&nbsp;och njuter av ett välstädat
-                        hem, säger Alexandra. Läs mer om vad hon berättar om
-                        sitt jobb på Städhemsida.
-                      </p>
+              <div class="caption cell large-10 xlarge-6">
+                <div class="inner">
+                  <p class="big">Ska du flytta?</p>
+                  <p>
+                    Prata med oss, så hjälper vi till med flyttstädningen! Lämna
+                    dina uppgifter nedan för en kostnadsfri offert.
+                  </p>
+                  <form
+                    class="cypress-offerform"
+                    action="https://www.bettysstad.se/offert/flyttstadning/"
+                    method="post"
+                  >
+                    <input
+                      type="hidden"
+                      name="init_offerform"
+                      value="1"
+                    /><input type="hidden" name="" value="1" />
+                    <div class="form-field-wrap">
+                      <div class="form-field">
+                        <input
+                          type="text"
+                          name="house_size"
+                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                          placeholder="Storlek m²"
+                        />
+                      </div>
+                      <div class="form-field noline">
+                        <input
+                          name="house_zipcode"
+                          type="text"
+                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                          placeholder="Postnummer"
+                        />
+                      </div>
                     </div>
-                  </div>
+                    <div class="form-submit">
+                      <button type="submit" class="submit-button btn offer-btn">
+                        Få offert här!
+                      </button>
+                    </div>
+                  </form>
+                </div>
 
-                  <div class="media cell large-6 xlarge-5">
-                    <div>
-                      <img
-                        src="https://www.bettysstad.se/wp-content/uploads/2022/06/aleksandra_1024x826.jpg"
-                        class="image"
-                      />
-                    </div>
-                  </div>
+                <ul class="usps">
+                  <li>
+                    <span class="icon-check"></span
+                    ><span class="usp-text">Lågt, fast pris</span>
+                  </li>
+                  <li>
+                    <span class="icon-check"></span
+                    ><span class="usp-text">Enligt Mäklarsamfundets rek</span>
+                  </li>
+                  <li>
+                    <span class="icon-check"></span
+                    ><span class="usp-text">Nöjd kund-garanti</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="media cell large-10 xlarge-6">
+                <div>
+                  <img
+                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero.jpg"
+                    class="image"
+                  />
+                </div>
+
+                <div class="circle darkorange show">
+                  <p class="inner">Alltid lågt pris!</p>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="green_circle show"></div>
+        </section>
 
-            <section
-              class="cypress-infoblock-article aos-init"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="1000"
-            >
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x align-center tx-blocks">
-                  <div class="cell small-12 large-6 xlarge-7 xlarge-offset-1">
-                    <div class="blue-box">
-                      <h3>Om Alexandra</h3>
-                      <p>
-                        <strong>Namn:</strong> Alexandra<br />
-                        <strong>Ålder:</strong>&nbsp;33 år<br />
-                        <strong>Jobbar med:</strong> Hemstäd<br />
-                        <strong> med att jobba hos Städhemsida?:&nbsp;</strong
-                        >Kundernas tacksamhet!
-                      </p>
-                    </div>
-                  </div>
-                </div>
+        <section
+          class="cypress-textblock no-numbers aos-init aos-animate text-left"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="grid-container narrow">
+            <div class="grid-x grid-margin-x align-center tx-blocks">
+              <div class="cell medium-12 large-10">
+                <h1 style="text-align: center">Flyttstädning</h1>
+                <p style="text-align: center">
+                  Att flytta till ett nytt hem är ett spännande steg i livet. Se
+                  därför till att njuta fullt ut av stunden – och låt oss ta
+                  hand om flyttstädningen. Medan du packar upp kartonger och
+                  fyller bokhyllor och byråer i din nya bostad, tar vi hand om
+                  flyttstädningen i ditt tidigare boende. Snabbt, professionellt
+                  och alltid till ett riktigt bra pris.
+                </p>
               </div>
-            </section>
-            <section
-              class="cypress-textblock-article aos-init"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="1000"
-            >
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x align-center tx-blocks">
-                  <div class="cell small-12 large-6 xlarge-7 xlarge-offset-1">
-                    <h5>Hur länge har du jobbat på Städhemsida?</h5>
-                    <p>Jag har jobbat som städare hos Städhemsida i fyra år.</p>
-                    <h5>Vilken typ av städning utförd du oftast?</h5>
-                    <p>
-                      Jag brukar oftast jobba med återkommande hemstädning i
-                      Göteborgsområdet.
-                    </p>
-                    <h5>
-                      Vad tycker du är viktigt att tänka på när vi städar hos
-                      våra kunder?
-                    </h5>
-                    <p>
-                      För mig är det jätteviktigt att kunderna känner sig nöjda
-                      med städningen&nbsp;och njuter av ett välstädat hem.
-                    </p>
-                    <h5>
-                      Hur vill du att kunderna skall känna när de kommer hem?
-                    </h5>
-                    <p>Glädje och avslappning!</p>
-                    <h5>Vad tycker du är det med ditt jobb?</h5>
-                    <p>
-                      Kundernas tacksamhet! Jag tycker att det är så härligt att
-                      få göra dem glada.
-                    </p>
-                    <h5>Vad gör du på fritiden?</h5>
-                    <p>Väldigt mycket familjetid.</p>
-                  </div>
+            </div>
+          </div>
+        </section>
+        <section class="cypress-certifiedblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div
+                class="logobox cell small-6 large-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                <div class="logo-wrap">
+                  <img
+                    src="https://www.bettysstad.se/wp-content/uploads/2020/07/sextusen_logo.svg"
+                    alt="logo"
+                  />
                 </div>
+                <p class="title">Över 6000 städuppdrag per månad</p>
               </div>
-            </section>
-            <section
-              class="cypress-quoteblock-article aos-init"
-              data-aos="fade"
-              data-aos-duration="2000"
-            >
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x align-center">
-                  <div class="cell small-12 large-6 xlarge-7 xlarge-offset-1">
-                    <div class="quote">
-                      <p class="text">
-                        ”För mig är det jätteviktigt att kunderna känner sig
-                        nöjda med städningen&nbsp;och njuter av ett välstädat
-                        hem.”
-                      </p>
-                      <p class="name"></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section
-              class="cypress-bluetextblock-article aos-init"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="1000"
-            >
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x align-center tx-blocks">
-                  <div class="cell small-12 xlarge-10 xlarge-offset-1">
-                    <div class="blue-box">
-                      <h2>Låter intressant?</h2>
-                      <p>
-                        Då är du välkommen att skicka din ansökan till&nbsp;<a
-                          href="mailto:jobb@städhemsida.se"
-                          ><strong>jobb@städhemsida.se</strong></a
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section
-              class="cypress-someblock-article aos-init"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="1000"
-            >
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x align-center tx-blocks">
-                  <div class="cell small-12 large-6 xlarge-7 xlarge-offset-1">
-                    <ul class="info-sm">
-                      <li><p>Dela artikeln</p></li>
-                      <li>
-                        <div
-                          class="fb-btn-share some-item"
-                          data-href="http://Bettys-2020.mkdev.se/https://www.bettysstad.se/artiklar/marie-igo-sum-memoriter-tum-etiam-ac-ratione-intellegi/"
-                          data-layout="button"
-                          data-size="small"
-                        >
-                          <a
-                            target="_blank"
-                            href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2FBettys-2020.mkdev.se%2Ftack%2F&amp;src=sdkpreparse"
-                            class="fb-xfbml-parse-ignore"
-                          >
-                            <span
-                              style="
-                                border: 1px solid #1e2f56;
-                                border-radius: 50%;
-                                padding: 5px 5px;
-                              "
-                              class="icon-facebook-alt"
-                            >
-                              <?xml version="1.0" ?>
-                              <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-                              <svg
-                                height="20px"
-                                style="
-                                  fill-rule: evenodd;
-                                  clip-rule: evenodd;
-                                  stroke-linejoin: round;
-                                  stroke-miterlimit: 2;
-                                "
-                                version="1.1"
-                                viewBox="0 0 512 512"
-                                width="20px"
-                                xml:space="preserve"
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:serif="http://www.serif.com/"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                              >
-                                <path
-                                  d="M374.245,285.825l14.104,-91.961l-88.233,0l0,-59.677c0,-25.159 12.325,-49.682 51.845,-49.682l40.117,0l0,-78.291c0,0 -36.408,-6.214 -71.214,-6.214c-72.67,0 -120.165,44.042 -120.165,123.775l0,70.089l-80.777,0l0,91.961l80.777,0l0,222.31c16.197,2.542 32.798,3.865 49.709,3.865c16.911,0 33.512,-1.323 49.708,-3.865l0,-222.31l74.129,0Z"
-                                  style="fill: #1e2f56; fill-rule: nonzero"
-                                />
-                              </svg> </span
-                          ></a>
-                        </div>
-                      </li>
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http:https://www.bettysstad.se/artiklar/marie-igo-sum-memoriter-tum-etiam-ac-ratione-intellegi/"
-                        >
-                          <span class="icon-linkedin-alt">
-                            <svg
-                              style="
-                                border: 1px solid #1e2f56;
-                                border-radius: 50%;
-                                padding: 5px 5px;
-                                fill: #1e2f56;
-                              "
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="32"
-                              height="32"
-                              viewBox="0 0 24 24"
-                            >
-                              <circle cx="4.983" cy="5.009" r="2.188"></circle>
-                              <path
-                                d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
-                              ></path>
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          class="some-item mail"
-                          href="mailto:?subject=Städhemsida - städföretag i Göteborg och Stockholm&amp;body=Läs hela artikeln här http:https://www.bettysstad.se/artiklar/marie-igo-sum-memoriter-tum-etiam-ac-ratione-intellegi/"
-                        >
-                          <span>
-                            <svg
-                              style="
-                                border: 1px solid #1e2f56;
-                                border-radius: 50%;
-                                padding: 5px 5px;
-                              "
-                              enable-background="new 0 0 32 32"
-                              id="Layer_1"
-                              version="1.1"
-                              viewBox="0 0 32 32"
-                              height="30px"
-                              width="30px"
-                              xml:space="preserve"
-                              xmlns="http://www.w3.org/2000/svg"
-                              xmlns:xlink="http://www.w3.org/1999/xlink"
-                            >
-                              <path
-                                d="M28,5H4C1.791,5,0,6.792,0,9v13c0,2.209,1.791,4,4,4h24c2.209,0,4-1.791,4-4V9  C32,6.792,30.209,5,28,5z M2,10.25l6.999,5.25L2,20.75V10.25z M30,22c0,1.104-0.898,2-2,2H4c-1.103,0-2-0.896-2-2l7.832-5.875  l4.368,3.277c0.533,0.398,1.166,0.6,1.8,0.6c0.633,0,1.266-0.201,1.799-0.6l4.369-3.277L30,22L30,22z M30,20.75l-7-5.25l7-5.25  V20.75z M17.199,18.602c-0.349,0.262-0.763,0.4-1.199,0.4c-0.436,0-0.851-0.139-1.2-0.4L10.665,15.5l-0.833-0.625L2,9.001V9  c0-1.103,0.897-2,2-2h24c1.102,0,2,0.897,2,2L17.199,18.602z"
-                                fill="#1e2f56"
-                                id="mail"
-                              />
-                            </svg>
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
 
-            <div class="lastest-post">
-              <span class="bg"></span>
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x align-center">
-                  <div class="intro cell medium-12 xxlarge-12">
-                    <h2>Möt fler medarbetare</h2>
-                  </div>
+              <div
+                class="logobox cell small-6 large-6 xlarge-3 aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <div class="logo-wrap">
+                  <img
+                    src="https://www.bettysstad.se/wp-content/uploads/2020/09/alberts-stadservice-iso-symbol.png"
+                    alt="logo"
+                  />
                 </div>
-                <div class="grid-x grid-margin-x">
-                  <div class="news-post cell large-4">
-                    <a href="./mot-var-medarbetare-monika.html" class="link">
-                      <div
-                        class="thumb"
-                        style="
-                          background-image: url('https://www.bettysstad.se/wp-content/uploads/2022/08/bettys_stadservice_monika.jpg');
-                          height: 292px;
-                          background-position: center;
-                          background-size: cover;
-                          background-repeat: no-repeat;
-                        "
-                      ></div>
-                      <div class="inner">
-                        <h2 class="title">Möt vår medarbetare Monika</h2>
-                        <p>
-                          Det allra är att jobbet är så socialt, varierande och
-                          fartfyllt, det ...
-                        </p>
-                        <span class="more">Läs mer</span>
-                      </div>
-                    </a>
+                <p class="title">Ledningssystem kvalité och miljö</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-mediablock standard lightblue">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center flex toright">
+              <div
+                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 large-offset-0 xlarge-offset-1 aos-init"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <div class="textfield">
+                  <h3>Flyttstäd med garanti</h3>
+                  <p>
+                    Vi lämnar alltid garanti på flyttstädningen vilket gör att
+                    eventuella invändningar som kan dyka upp vid
+                    besiktningstillfället åtgärdas snarast av oss.Nöjd kund
+                    garanti
+                  </p>
+                  <p>
+                    <strong>Så fungerar vår flyttstädning</strong><br />
+                    Här nedan kan du läsa lite mer om vilka delmoment som ingår
+                    i vår flyttstädning och vad vi erbjuder dig i samband med
+                    din flytt. Du är varmt välkommen att kontakta oss om du har
+                    ytterligare frågor om våra tjänster, eller om du är
+                    intresserad av en
+                    <a href="https://www.bettysstad.se/offert/flyttstadning/"
+                      >kostnadsfri offert</a
+                    >.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 aos-init"
+                data-aos="fade-right"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="https://www.bettysstad.se/wp-content/uploads/2023/05/bettys-flyttstad-garanti.jpg"
+                  class="image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-accordionblock bg lightorange">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div class="accordion cell medium-12 xlarge-10 xxlarge-7">
+                <h2 class="title">Detta ingår i vår flyttstädning:</h2>
+                <div class="group">
+                  <div class="row">
+                    <p class="question">Flyttstädning av kök</p>
+                    <div class="answer">
+                      <ul>
+                        <li>Avtorkning av belysning.</li>
+                        <li>
+                          Rengöring av kyl, sval och frys in- och utvändigt samt
+                          under.
+                        </li>
+                        <li>
+                          Rengöring av spis in- och utvändigt, inklusive
+                          ugnsplåtar.
+                        </li>
+                        <li>Köksfläkt rengöres, inklusive dess ventiler.</li>
+                        <li>
+                          Skåp, lådor och bänkar rengörs både ut- och invändigt.
+                        </li>
+                        <li>Diskmaskin rengöres in- och utvändigt.</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="news-post cell large-4">
-                    <a href="./jolanta.html" class="link">
-                      <div
-                        class="thumb"
-                        style="
-                          background-image: url('https://www.bettysstad.se/wp-content/uploads/2022/06/jolanta_1024x826-1-1.jpg');
-                          height: 292px;
-                          background-position: center;
-                          background-size: cover;
-                          background-repeat: no-repeat;
-                        "
-                      ></div>
-                      <div class="inner">
-                        <h2 class="title">Möt vår medarbetare Jolanta</h2>
-                        <p>
-                          Det med mitt jobb är självständigheten. Jag älskar
-                          frihet under ansva...
-                        </p>
-                        <span class="more">Läs mer</span>
-                      </div>
-                    </a>
+                  <div class="row">
+                    <p class="question">Flyttstädning av bostadsrum</p>
+                    <div class="answer">
+                      <ul>
+                        <li>Rengöring av samtliga golv.</li>
+                        <li>In- och utvändig rengöring av garderober.</li>
+                        <li>
+                          Rengöring av kontakter, dörrar, karmar, element och
+                          fönsterbrädor.
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="news-post cell large-4">
-                    <a
-                      href="./sara-memoriter-tum-etiam-ac-ratione-intellegi.html"
-                      class="link"
-                    >
-                      <div
-                        class="thumb"
-                        style="
-                          background-image: url('https://www.bettysstad.se/wp-content/uploads/2022/06/agata_1024x826-1.jpg');
-                          height: 292px;
-                          background-position: center;
-                          background-size: cover;
-                          background-repeat: no-repeat;
-                        "
-                      ></div>
-                      <div class="inner">
-                        <h2 class="title">Möt vår medarbetare Agata</h2>
-                        <p>
-                          Det med mitt jobb är flexibiliteten, det är
-                          jätteviktigt för mig, säg...
-                        </p>
-                        <span class="more">Läs mer</span>
-                      </div>
-                    </a>
+                  <div class="row">
+                    <p class="question">Rengöring av badrum och toalett</p>
+                    <div class="answer">
+                      <ul>
+                        <li>Rengöring av kakelväggar.</li>
+                        <li>Rengöring av golvbrunnar och ventiler.</li>
+                        <li>Rengöring av samtliga förvaringsutrymmen.</li>
+                        <li>Avtorkning av belysning.</li>
+                        <li>
+                          In- och utvändig rengöring av toalettstol, badkar och
+                          jacuzzibadkar.
+                        </li>
+                        <li>
+                          Torktumlare, tvättmaskin samt torkskåp rengöres in-
+                          och utvändigt.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Att tänka på inför flyttstädningen</p>
+                    <div class="answer">
+                      <p>
+                        Vi tillhandahåller allt material och utrustning för
+                        städningen. Tänk dock på att hemmet bör vara helt tomt
+                        när vi kommer för att vi skall kunna utföra städningen
+                        på ett bra sätt. Kyl och frys bör också vara urplockade
+                        avstängda och utdragna så att vi kommer åt att städa. Om
+                        det finns befintliga skador, som exempelvis fönster som
+                        inte går att öppna eller trasiga vitvaror, är det
+                        viktigt att du meddelar oss om dessa innan vi påbörjar
+                        städningen. Tänk också på att meddela oss om du vill att
+                        vi städar biytor såsom balkong, förråd eller garage
+                        eftersom detta bör beställas innan vi påbörjar
+                        städningen. När du beställt tjänsten kommer du att få en
+                        detaljerad orderbekräftelse där du kan se vad som gäller
+                        för just din bostad. Det kan variera beroende på
+                        omfattning, storlek och skick, så vi reserverar oss för
+                        eventuella ändringar.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">Nöjd kund-garanti</p>
+                    <div class="answer">
+                      <p>
+                        Vår garanti innebär att vi åtgärdar det i vår
+                        flyttstädning som du inte är nöjd med. Reklamationer
+                        måste anmälas till oss inom tre arbetsdagar från
+                        städtillfället. Du kan läsa mer
+                        <a href="https://www.bettysstad.se/nojd-kundgaranti/"
+                          >här</a
+                        >.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="question">RUT-avdrag</p>
+                    <div class="answer">
+                      <p>
+                        Tjänsten flyttstädning ingår i skattereduktionen för
+                        hushållsnära tjänster så du betalar bara 50% av
+                        kostnaden, direkt på fakturan. Läs mer om RUT och
+                        RUT-avdrag&nbsp;<a
+                          href="https://www.bettysstad.se/att-vara-kund/rutavdrag/"
+                          >här</a
+                        >.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        <section
+          class="cypress-textblock numbers aos-init text-left"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div class="abstract cell medium-12 large-10 xlarge-8">
+                <h2 style="text-align: center">
+                  Så här bokar du vår flyttstädning:
+                </h2>
+              </div>
+            </div>
+
+            <div class="grid-x grid-margin-x align-center tx-blocks">
+              <div
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
+              >
+                <span class="col-number">1</span>
+                <p style="text-align: center">
+                  Fyll i formuläret på hemsidan, inklusive önskat datum för
+                  städningen
+                </p>
+              </div>
+
+              <div
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
+              >
+                <span class="col-number">2</span>
+                <p style="text-align: center">Vi återkommer inom 24 timmar</p>
+              </div>
+
+              <div
+                class="cell medium-12 large-10 xlarge-4 has-background lightgreen three-blocks"
+              >
+                <span class="col-number">3</span>
+                <p style="text-align: center">
+                  Efter godkänd offert bokar vi in en tid enligt ditt önskemål
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="cypress-quoteblock aos-init"
+          data-aos="fade"
+          data-aos-duration="2000"
+        >
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div class="cell medium-12 xlarge-10 xxlarge-6">
+                <div
+                  class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-css-mode"
+                >
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide quote swiper-slide-active">
+                      <p class="text">
+                        "Fantastiskt städföretag! Snabba och effektiva
+                        städproffs utan några komplikationer. Utmärkt
+                        kommunikation och inga detaljer överlämnades åt slumpen.
+                        Rekommenderas varmt!"
+                      </p>
+                      <p class="name">Erik A, 5/5 stjärnor, Google plus</p>
+                    </div>
+                    <div class="swiper-slide quote swiper-slide-next">
+                      <p class="text">
+                        "Enastående städning! Snabbt, effektivt och inget
+                        utrymme för slarv. Tydlig och smidig kommunikation hela
+                        vägen. Jag rekommenderar dem starkt till alla som söker
+                        professionell !"
+                      </p>
+                      <p class="name">Anna S, 5/5 stjärnor, Google plus</p>
+                    </div>
+                    <div class="swiper-slide quote">
+                      <p class="text">
+                        "Oslagbar städning! Teamet var snabbt och effektivt utan
+                        några missar. Kommunikationen var förstklassig och allt
+                        gick smidigt. Jag kan verkligen rekommendera dem för
+                        deras enastående arbete!"
+                      </p>
+                      <p class="name">Maria A, 5/5 stjärnor, Google plus</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-mediablock wave darkblue">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center flex toleft">
+              <div
+                class="text-col cell medium-12 large-10 xlarge-5 xxlarge-5 aos-init"
+                data-aos="fade-right"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <div class="textfield">
+                  <h2>Vill du ha hjälp med flyttstädningen?</h2>
+                  <p>
+                    Fyll i dina uppgifter nedan – det tar bara en minut – så
+                    skickar vi offert inom 24 timmar!
+                  </p>
+                  <ul class="checklist">
+                    <li><strong>Lågt, fast pris</strong></li>
+                    <li><strong>Enligt Mäklarsamfundets rek</strong></li>
+                    <li><strong>Nöjd kund-garanti</strong></li>
+                  </ul>
+                  <form
+                    class="cypress-offerform"
+                    action="https://www.bettysstad.se/offert/flyttstadning/"
+                    method="post"
+                  >
+                    <input
+                      type="hidden"
+                      name="init_offerform"
+                      value="1"
+                    /><input type="hidden" name="" value="1" />
+                    <div class="form-field-wrap">
+                      <div class="form-field">
+                        <input
+                          type="text"
+                          name="house_size"
+                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                          placeholder="Storlek m²"
+                        />
+                      </div>
+                      <div class="form-field noline">
+                        <input
+                          name="house_zipcode"
+                          type="text"
+                          onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))"
+                          placeholder="Postnummer"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-submit">
+                      <button type="submit" class="submit-button btn offer-btn">
+                        Få offert här!
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div
+                class="media-col cell medium-12 large-10 xlarge-5 xxlarge-6 large-offset-0 xlarge-offset-1 aos-init"
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="https://www.bettysstad.se/wp-content/uploads/2023/05/flyttstadning-hero.jpg"
+                  class="image"
+                />
+
+                <div class="circle darkorange show">
+                  <p class="inner">Alltid lågt pris!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cypress-officeblock">
+          <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center">
+              <div
+                class="abstract cell medium-12 large-10 aos-init"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
+                <h2 style="text-align: center">
+                  Tveka inte på att kontakta oss om du har frågor!
+                </h2>
+                <p style="text-align: center">
+                  Har du ytterligare frågor om vår städning eller service? Då är
+                  du varmt välkommen att mejla eller ringa vår kundtjänst, eller
+                  lämna dina kontaktuppgifter på hemsidan så kontaktar vi dig.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="office-wrap grid-x grid-margin-x align-center aos-init"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              <div class="office cell medium-12 large-8 xlarge-5 xxlarge-4">
+                <h3 class="city">Kundtjänst Göteborg</h3>
+                <a href="tel:010- 000 00 00" class="phone">010- 000 00 00</a>
+                <a href="mailto: info@städhemsida.se" class="mail"
+                  >info@städhemsida.se</a
+                >
+              </div>
+              <div class="office cell medium-12 large-8 xlarge-5 xxlarge-4">
+                <h3 class="city">Kundtjänst Stockholm</h3>
+                <a href="tel:010- 000 00 00" class="phone">010- 000 00 00</a>
+                <a href="mailto: info@städhemsida.se" class="mail"
+                  >info@städhemsida.se</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cypress-serviceblock">
+          <span class="bg"></span>
+
+          <div class="grid-container">
+            <div class="intro grid-x grid-margin-x">
+              <div class="cell small-6 large-8">
+                <h2>Våra andra tjänster</h2>
+              </div>
+            </div>
+
+            <div
+              id="page-1"
+              class="services-grid grid-x grid-margin-x"
+              style=""
+            >
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/tjanster/hemstadning/"
+                  class="link"
+                >
+                  <img
+                    width="974"
+                    height="852"
+                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1.jpg         974w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1-600x525.jpg 600w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/hemstadning-hero-1-768x672.jpg 768w
+                    "
+                    sizes="(max-width: 974px) 100vw, 974px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Hemstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/tjanster/storstadning/"
+                  class="link"
+                >
+                  <img
+                    width="1001"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2.jpg         1001w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/storstadning-hero-2-768x673.jpg  768w
+                    "
+                    sizes="(max-width: 1001px) 100vw, 1001px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Storstädning</h4>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="service cell small-6 xlarge-3 aos-init"
+                data-aos="fade-up"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                <a
+                  href="https://www.bettysstad.se/tjanster/fonsterputs/"
+                  class="link"
+                >
+                  <img
+                    width="1000"
+                    height="877"
+                    src="https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero.jpg"
+                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                    alt=""
+                    decoding="async"
+                    loading="lazy"
+                    srcset="
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero.jpg         1000w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero-600x526.jpg  600w,
+                      https://www.bettysstad.se/wp-content/uploads/2023/05/fonsterputs-hero-768x674.jpg  768w
+                    "
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                  />
+
+                  <div class="inner">
+                    <h4 class="title">Fönsterputs</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
 
       <footer class="cypress-footer">
@@ -1202,7 +1492,6 @@
                       servicekontor i Stockholm, men vi utför vår städhjälp på
                       många orter i Sverige.
                     </p>
-
                     <ul class="ft-info-sm">
                       <li>
                         <a href="#">
@@ -1229,9 +1518,8 @@
                                 d="M374.245,285.825l14.104,-91.961l-88.233,0l0,-59.677c0,-25.159 12.325,-49.682 51.845,-49.682l40.117,0l0,-78.291c0,0 -36.408,-6.214 -71.214,-6.214c-72.67,0 -120.165,44.042 -120.165,123.775l0,70.089l-80.777,0l0,91.961l80.777,0l0,222.31c16.197,2.542 32.798,3.865 49.709,3.865c16.911,0 33.512,-1.323 49.708,-3.865l0,-222.31l74.129,0Z"
                                 style="fill: #ffffff; fill-rule: nonzero"
                               />
-                            </svg>
-                          </span>
-                        </a>
+                            </svg> </span
+                        ></a>
                       </li>
                       <li>
                         <a href="#">
@@ -1275,8 +1563,8 @@
                         ></a>
                       </li>
                       <li>
-                        <a href="#">
-                          <span class="icon-linkedin-alt">
+                        <a href="#"
+                          ><span class="icon-linkedin-alt">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width="24"
@@ -1288,9 +1576,8 @@
                               <path
                                 d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
                               ></path>
-                            </svg>
-                          </span>
-                        </a>
+                            </svg> </span
+                        ></a>
                       </li>
                       <li>
                         <a href="#"><span class="icon-cision"> C </span></a
