@@ -10468,7 +10468,7 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 .icon-arrow-up:before {
-  content: "\42";
+  content: "\2304";
 }
 
 .icon-check-1:before {
@@ -10573,7 +10573,7 @@ html.is-reveal-open.zf-has-scroll {
   }
 
   .cypress-menu .navigation-bar .citys-phones .sa-city button.open:after {
-    content: "\42";
+    content: "\2304";
   }
 
   .cypress-menu .navigation-bar .citys-phones .sa-city .line {
@@ -11216,7 +11216,7 @@ html.is-reveal-open.zf-has-scroll {
   }
 
   .cypress-menu .menu-links .citys-phones-small button.opt-city.open:after {
-    content: "\42";
+    content: "\2304";
   }
 
   .cypress-menu .menu-links .citys-phones-small .city-list {
@@ -13473,7 +13473,7 @@ html.is-reveal-open.zf-has-scroll {
   .archive-posts
   .cypress-accordionblock
   .question.open:after {
-  content: "\42";
+  content: "\2304";
 }
 
 .cypress-faq-archive-two .archive-posts .cypress-accordionblock .answer,
@@ -14724,7 +14724,7 @@ html.is-reveal-open.zf-has-scroll {
 }
 
 .cypress-roll-up.active .trigger:after {
-  content: "\42";
+  content: "\2304";
 }
 
 .cypress-roll-up.active .content-wrapper {
