@@ -10879,13 +10879,7 @@ html.is-reveal-open.zf-has-scroll {
   }
 }
 
-/*!
-   * Hamburgers
-   * @description Tasty CSS-animated hamburgers
-   * @author Jonathan Suh @jonsuh
-   * @site https://jonsuh.com/hamburgers
-   * @link https://github.com/jonsuh/hamburgers
-   */
+
 .hamburger {
   padding: 15px 0 15px 15px;
   display: inline-block;
@@ -18162,21 +18156,21 @@ body .gform_wrapper #field_1_28 {
   .af-field-type-group[data-name="typ_av_fonster"]
   .acf-fields
   .acf-field.no-sprojs:before {
-  background-image: url(/wp-content/themes/alberts/public/window-1.png);
+  background-image: url(../assets/img/window-1.png);
 }
 
 .cypress-large-offerform
   .af-field-type-group[data-name="typ_av_fonster"]
   .acf-fields
   .acf-field.overhangt:before {
-  background-image: url(/wp-content/themes/alberts/public/window-2.png);
+  background-image: url(../assets/img/window-2.png);
 }
 
 .cypress-large-offerform
   .af-field-type-group[data-name="typ_av_fonster"]
   .acf-fields
   .acf-field.sprojs:before {
-  background-image: url(/wp-content/themes/alberts/public/window-3.png);
+  background-image: url(../assets/img/window-3.png);
 }
 
 .cypress-large-offerform
